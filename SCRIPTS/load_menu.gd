@@ -5,7 +5,7 @@ Controls the load menu.
 Shows placeholder save slots and allows returning to the main menu.
 """
 
-const MAIN_MENU_PATH = "res://scenes/menus/main_menu.tscn"
+const MAIN_MENU_PATH = "res://SCENES/MENUS/main_menu.tscn"
 
 
 func _ready():

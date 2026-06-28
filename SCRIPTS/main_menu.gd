@@ -5,8 +5,8 @@ Controls the main menu buttons.
 Handles starting the game, opening menus, and quitting the game.
 """
 
-const GAME_SCENE_PATH = "res://scenes/game/game_scene.tscn"
-const LOAD_MENU_PATH = "res://scenes/menus/load_menu.tscn"
+const GAME_SCENE_PATH = "res://SCENES/GAME/game_scene.tscn"
+const LOAD_MENU_PATH = "res://SCENES/MENUS/load_menu.tscn"
 
 
 func _ready():
