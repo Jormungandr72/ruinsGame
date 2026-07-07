@@ -1,0 +1,96 @@
+[gd_scene load_steps=6 format=3 uid="uid://bf348y2o78rm3"]
+
+[ext_resource type="Texture2D" uid="uid://cvoymb7b077c7" path="res://ASSETS/SPR_mainChara0.png" id="1_bxmem"]
+[ext_resource type="Script" uid="uid://dyuo8kml6vwea" path="res://SCRIPTS/player_controller.gd" id="2_65byf"]
+[ext_resource type="Script" uid="uid://c7jnxe0kr1fbr" path="res://SCRIPTS/hook_controller.gd" id="3_hpok4"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_65byf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m6cds"]
+size = Vector2(737.77264, 34.86333)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(414, 62)
+script = ExtResource("2_65byf")
+double_jump_count = 3
+gravity = 1100.0
+
+[node name="SprMainChara0" type="Sprite2D" parent="Player"]
+position = Vector2(-1, 0)
+texture = ExtResource("1_bxmem")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(-1, 0)
+shape = SubResource("CapsuleShape2D_65byf")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-6, 13)
+
+[node name="HookController" type="Node2D" parent="Player"]
+script = ExtResource("3_hpok4")
+
+[node name="Ground" type="StaticBody2D" parent="."]
+position = Vector2(475, 379)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
+position = Vector2(-9, 3)
+shape = SubResource("RectangleShape2D_m6cds")
+
+[node name="ColorRect" type="ColorRect" parent="Ground/CollisionShape2D"]
+offset_left = -374.0
+offset_top = -21.0
+offset_right = -334.0
+offset_bottom = 19.0
+scale = Vector2(18.614857, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Ground2" type="StaticBody2D" parent="."]
+position = Vector2(908, 250)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground2"]
+position = Vector2(-9, 3)
+shape = SubResource("RectangleShape2D_m6cds")
+
+[node name="ColorRect" type="ColorRect" parent="Ground2/CollisionShape2D"]
+offset_left = -507.0
+offset_top = -21.0
+offset_right = -467.0
+offset_bottom = 19.0
+scale = Vector2(25.414858, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Ground3" type="StaticBody2D" parent="."]
+position = Vector2(-191, 35)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground3"]
+position = Vector2(-9, 3)
+shape = SubResource("RectangleShape2D_m6cds")
+
+[node name="ColorRect" type="ColorRect" parent="Ground3/CollisionShape2D"]
+offset_left = -507.0
+offset_top = -21.0
+offset_right = -467.0
+offset_bottom = 19.0
+scale = Vector2(25.414858, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Claw1" type="StaticBody2D" parent="."]
+z_index = 1
+position = Vector2(116, 179)
+scale = Vector2(0.011988094, -1.0103737)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Claw1"]
+position = Vector2(-752.9712, 20.63309)
+scale = Vector2(6.366513, 1.058214)
+shape = SubResource("RectangleShape2D_m6cds")
+
+[node name="ColorRect" type="ColorRect" parent="Claw1/CollisionShape2D"]
+offset_left = 341.9325
+offset_top = 15.9301815
+offset_right = 381.9325
+offset_bottom = 55.930183
+scale = Vector2(-16.831516, -0.80898154)
+color = Color(1, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
