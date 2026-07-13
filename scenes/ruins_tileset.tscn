@@ -245,6 +245,7 @@ texture = ExtResource("1_757nl")
 1:16/0 = 0
 1:17/0 = 0
 1:18/0 = 0
+0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cu4e4"]
 texture = ExtResource("2_qgrx8")
@@ -526,6 +527,6 @@ sources/0 = SubResource("TileSetAtlasSource_81jil")
 sources/1 = SubResource("TileSetAtlasSource_cu4e4")
 sources/2 = SubResource("TileSetAtlasSource_tc8ov")
 
-[node name="BackgroundLayer" type="TileMapLayer"]
+[node name="RuinsTileset" type="TileMapLayer"]
 scale = Vector2(2, 2)
 tile_set = SubResource("TileSet_qgrx8")
