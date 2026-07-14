@@ -6,6 +6,7 @@ extends CharacterBody2D
 @export var acceleration: float = 1800.0
 @export var deceleration: float = 2200.0
 @export var air_control: float = 900.0
+@export var air_deceleration: float = 120.0
 @export var max_walk_speed: float = 220.0
 # Physics
 
@@ -27,7 +28,7 @@ extends CharacterBody2D
 @export var dash_cooldown: float = 0.45
 # Dash
 
-@export var ice_friction: float = 300.0
+@export var ice_friction: float = 0.0
 # Ice
 
 var coyote_timer: float = 0.0
@@ -39,7 +40,7 @@ var dash_timer: float = 0.0
 var dash_cooldown_timer: float = 0.0
 var dash_direction: float = 1.0
 
-var is_on_ice: bool = true
+var is_on_ice: bool = false
 var is_dashing: bool = false
 
 
@@ -82,13 +83,20 @@ func handleHorizontalMovement(input_direction: float, delta: float) -> void:
 
 	if input_direction != 0.0:
 		var control := acceleration if is_on_floor() else air_control
-		velocity.x = move_toward(
-			velocity.x,
-			input_direction * max_walk_speed,
-			control * delta
+		var target_speed := input_direction * max_walk_speed
+		var keeping_air_momentum := (
+			not is_on_floor()
+			and absf(velocity.x) > max_walk_speed
+			and signf(velocity.x) == signf(input_direction)
 		)
+
+		if not keeping_air_momentum:
+			velocity.x = move_toward(velocity.x, target_speed, control * delta)
 	else:
-		var friction := ice_friction if is_on_ice else deceleration
+		var friction := air_deceleration
+		if is_on_floor():
+			friction = ice_friction if is_on_ice else deceleration
+
 		velocity.x = move_toward(velocity.x, 0.0, friction * delta)
 
 
