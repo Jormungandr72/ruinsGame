@@ -1,0 +1,110 @@
+[gd_scene load_steps=10 format=4 uid="uid://bf348y2o78rm3"]
+
+[ext_resource type="Texture2D" uid="uid://cvoymb7b077c7" path="res://ASSETS/SPR_mainChara0.png" id="1_bxmem"]
+[ext_resource type="Script" uid="uid://dyuo8kml6vwea" path="res://SCRIPTS/player_controller.gd" id="2_65byf"]
+[ext_resource type="Script" uid="uid://dlfsb7xb2qn6f" path="res://SCRIPTS/hook_controller.gd" id="3_hpok4"]
+[ext_resource type="PackedScene" uid="uid://dedu33hovelvl" path="res://SCENES/ruins_tileset.tscn" id="4_pqy6s"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_65byf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ground"]
+size = Vector2(744.5943, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ground2"]
+size = Vector2(1016.5943, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ground3"]
+size = Vector2(1016.5943, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_claw1"]
+size = Vector2(5585.224, 48.52104)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(414, 62)
+script = ExtResource("2_65byf")
+gravity = 1100.0
+
+[node name="SprMainChara0" type="Sprite2D" parent="Player"]
+position = Vector2(-1, 0)
+texture = ExtResource("1_bxmem")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(-1, 0)
+shape = SubResource("CapsuleShape2D_65byf")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-6, 13)
+zoom = Vector2(0.5, 0.5)
+
+[node name="HookController" type="Node2D" parent="Player"]
+script = ExtResource("3_hpok4")
+left_angle_cap_degrees = 90.0
+right_angle_cap_degrees = 90.0
+
+[node name="Ground" type="StaticBody2D" parent="."]
+position = Vector2(78, 416)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
+position = Vector2(-10.70286, 2)
+shape = SubResource("RectangleShape2D_ground")
+
+[node name="ColorRect" type="ColorRect" parent="Ground"]
+offset_left = -383.0
+offset_top = -18.0
+offset_right = -343.0
+offset_bottom = 22.0
+scale = Vector2(18.614857, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Ground2" type="StaticBody2D" parent="."]
+position = Vector2(825, 255)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground2"]
+position = Vector2(-7.70284, 2)
+shape = SubResource("RectangleShape2D_ground2")
+
+[node name="ColorRect" type="ColorRect" parent="Ground2"]
+offset_left = -516.0
+offset_top = -18.0
+offset_right = -476.0
+offset_bottom = 22.0
+scale = Vector2(25.414858, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Ground3" type="StaticBody2D" parent="."]
+position = Vector2(-191, 35)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground3"]
+position = Vector2(-7.70284, 2)
+shape = SubResource("RectangleShape2D_ground3")
+
+[node name="ColorRect" type="ColorRect" parent="Ground3"]
+offset_left = -516.0
+offset_top = -18.0
+offset_right = -476.0
+offset_bottom = 22.0
+scale = Vector2(25.414858, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Claw1" type="StaticBody2D" parent="."]
+z_index = 1
+position = Vector2(116, 179)
+scale = Vector2(0.011988094, -1.0103737)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Claw1"]
+position = Vector2(-790.6258, 22.28106)
+shape = SubResource("RectangleShape2D_claw1")
+
+[node name="ColorRect" type="ColorRect" parent="Claw1"]
+offset_left = 2001.9862
+offset_top = -1.9794579
+offset_right = 2041.9862
+offset_bottom = 38.020542
+scale = Vector2(-139.6306, 1.2130259)
+color = Color(1, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="RuinsTileset" parent="." instance=ExtResource("4_pqy6s")]
+tile_map_data = PackedByteArray("AAALAAQAAQABAAQAAAAMAAQAAQABAAQAAAANAAQAAQABAAQAAAAOAAQAAQALAAQAAAAPAAUAAQALAAQAAAAQAAYAAQALAAQAAAARAAcAAQALAAQAAAAKAAQAAQAIAAQAAAAKAAUAAQAIAAcAAAAVAAQAAQAOAAYAAAAWAAUAAQAPAAcAAAAWAAQAAQAPAAYAAAAXAAUAAQAOAAYAAAAUAAQAAQANAAYAAAAbAAQAAQAJAAYAAAAbAAUAAQAJAAcAAAAaAAMAAQAJAAcAAAA=")
