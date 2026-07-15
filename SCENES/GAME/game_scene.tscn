@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://bf348y2o78rm3"]
+[gd_scene load_steps=10 format=4 uid="uid://bf348y2o78rm3"]
 
 [ext_resource type="Texture2D" uid="uid://cvoymb7b077c7" path="res://ASSETS/SPR_mainChara0.png" id="1_bxmem"]
 [ext_resource type="Script" uid="uid://dyuo8kml6vwea" path="res://SCRIPTS/player_controller.gd" id="2_65byf"]
 [ext_resource type="Script" uid="uid://dlfsb7xb2qn6f" path="res://SCRIPTS/hook_controller.gd" id="3_hpok4"]
+[ext_resource type="PackedScene" uid="uid://dedu33hovelvl" path="res://SCENES/ruins_tileset.tscn" id="4_pqy6s"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_65byf"]
 
@@ -104,3 +105,6 @@ offset_bottom = 38.020542
 scale = Vector2(-139.6306, 1.2130259)
 color = Color(1, 0, 0, 1)
 metadata/_edit_use_anchors_ = true
+
+[node name="RuinsTileset" parent="." instance=ExtResource("4_pqy6s")]
+tile_map_data = PackedByteArray("AAALAAQAAQABAAQAAAAMAAQAAQABAAQAAAANAAQAAQABAAQAAAAOAAQAAQALAAQAAAAPAAUAAQALAAQAAAAQAAYAAQALAAQAAAARAAcAAQALAAQAAAAKAAQAAQAIAAQAAAAKAAUAAQAIAAcAAAAVAAQAAQAOAAYAAAAWAAUAAQAPAAcAAAAWAAQAAQAPAAYAAAAXAAUAAQAOAAYAAAAUAAQAAQANAAYAAAAbAAQAAQAJAAYAAAAbAAUAAQAJAAcAAAAaAAMAAQAJAAcAAAA=")
