@@ -10,7 +10,7 @@ extends CharacterBody2D
 @export var max_walk_speed: float = 220.0
 # Physics
 
-@export var jump_velocity: float = -420.0
+@export var jump_velocity: float = -500.0
 @export var variable_jump_height: float = 0.5
 @export var coyote_time: float = 0.12
 @export var jump_buffer: float = 0.12
