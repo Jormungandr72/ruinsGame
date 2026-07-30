@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://w6w17jqybpcs"]
+
+[ext_resource type="Script" uid="uid://ce7lvbk3cw7fn" path="res://SCRIPTS/load_menu.gd" id="1_05j2y"]
+
+[node name="Node2D" type="Node2D"]
+texture_filter = 1
+
+[node name="LoadMenu" type="Control" parent="."]
+texture_filter = 2
+layout_mode = 3
+anchors_preset = 0
+offset_left = 558.0
+offset_top = 199.0
+offset_right = 598.0
+offset_bottom = 239.0
+script = ExtResource("1_05j2y")

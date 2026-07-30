@@ -1,0 +1,60 @@
+[gd_scene load_steps=12 format=3 uid="uid://5togvo5l4hu3"]
+
+[ext_resource type="Texture2D" uid="uid://cvoymb7b077c7" path="res://ASSETS/SPR_mainChara0.png" id="1_texture"]
+[ext_resource type="Script" uid="uid://dyuo8kml6vwea" path="res://SCRIPTS/player_controller.gd" id="2_player"]
+[ext_resource type="Script" uid="uid://dlfsb7xb2qn6f" path="res://SCRIPTS/hook_controller.gd" id="3_hook"]
+[ext_resource type="Script" uid="uid://dexmgakyofodc" path="res://SCRIPTS/state_machine/state_machine.gd" id="4_state_machine"]
+[ext_resource type="Script" uid="uid://sxihnsq0c1ls" path="res://SCRIPTS/player_states/idle_state.gd" id="5_idle"]
+[ext_resource type="Script" uid="uid://djjkpnqjkh6s6" path="res://SCRIPTS/player_states/run_state.gd" id="6_run"]
+[ext_resource type="Script" uid="uid://c8ek7qchd6mrk" path="res://SCRIPTS/player_states/jump_state.gd" id="7_jump"]
+[ext_resource type="Script" uid="uid://3k67rrlmbsmt" path="res://SCRIPTS/player_states/fall_state.gd" id="8_fall"]
+[ext_resource type="Script" uid="uid://cm7usget0735l" path="res://SCRIPTS/player_states/grapple_state.gd" id="10_grapple"]
+[ext_resource type="Script" uid="uid://cqv3ft3dpvi46" path="res://SCRIPTS/camera_controller.gd" id="11_camera"]
+
+[sub_resource type="RectangleShape2D" id="PlayerShape"]
+size = Vector2(15, 32)
+
+[node name="Player" type="CharacterBody2D" groups=["player"]]
+script = ExtResource("2_player")
+acceleration = 1300.0
+max_walk_speed = 180.0
+gravity = 1300.0
+fall_gravity_multiplier = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0)
+shape = SubResource("PlayerShape")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.75, 1.75)
+script = ExtResource("11_camera")
+
+[node name="HookController" type="Node2D" parent="."]
+script = ExtResource("3_hook")
+swing_control = 450.0
+left_angle_cap_degrees = 120.0
+right_angle_cap_degrees = 120.0
+angle_rebound_factor = 0.135
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("4_state_machine")
+initial_state = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="StateMachine"]
+script = ExtResource("5_idle")
+
+[node name="Run" type="Node" parent="StateMachine"]
+script = ExtResource("6_run")
+
+[node name="Jump" type="Node" parent="StateMachine"]
+script = ExtResource("7_jump")
+
+[node name="Fall" type="Node" parent="StateMachine"]
+script = ExtResource("8_fall")
+
+[node name="Grapple" type="Node" parent="StateMachine"]
+script = ExtResource("10_grapple")
+
+[node name="SprMainChara0" type="Sprite2D" parent="."]
+position = Vector2(-1, 0)
+texture = ExtResource("1_texture")
