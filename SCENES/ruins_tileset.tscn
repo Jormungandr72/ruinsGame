@@ -1,8 +1,17 @@
-[gd_scene load_steps=8 format=3 uid="uid://dedu33hovelvl"]
+[gd_scene format=3 uid="uid://dedu33hovelvl"]
 
 [ext_resource type="Texture2D" uid="uid://c8nb1h5o12sy7" path="res://ASSETS/TILE_BG_VAL.png" id="1_757nl"]
 [ext_resource type="Texture2D" uid="uid://qc44gjskcy7l" path="res://ASSETS/TILE_FG_VAL.png" id="2_qgrx8"]
 [ext_resource type="Texture2D" uid="uid://dyowp04raai5u" path="res://ASSETS/TILE_OL_VAL.png" id="3_ghj2a"]
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_k2rh3"]
+tile_data = PackedInt32Array(0, 131073, 0, 1, 196609, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_35nh3"]
+tile_data = PackedInt32Array(0, 65537, 1, 65536, 65537, 3, 1, 196609, 1, 65537, 196609, 3)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_jnbrs"]
+tile_data = PackedInt32Array(0, 1, 2, 65536, 1, 3)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_81jil"]
 texture = ExtResource("1_757nl")
@@ -695,7 +704,10 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_81jil")
 sources/1 = SubResource("TileSetAtlasSource_cu4e4")
 sources/2 = SubResource("TileSetAtlasSource_tc8ov")
+pattern_0 = SubResource("TileMapPattern_k2rh3")
+pattern_1 = SubResource("TileMapPattern_35nh3")
+pattern_2 = SubResource("TileMapPattern_jnbrs")
 
-[node name="RuinsTileset" type="TileMapLayer"]
+[node name="RuinsTileset" type="TileMapLayer" unique_id=677702144]
 scale = Vector2(2, 2)
 tile_set = SubResource("TileSet_qgrx8")
