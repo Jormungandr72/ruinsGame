@@ -8,10 +8,10 @@ extends CharacterBody2D
 @export var deceleration: float = 2200.0
 @export var air_control: float = 900.0
 @export var air_deceleration: float = 120.0
-@export var max_walk_speed: float = 220.0
+@export var max_walk_speed: float = 150
 
 @export_group("Jumping")
-@export var jump_velocity: float = -500.0
+@export var jump_velocity: float = -400.0
 @export var variable_jump_height: float = 0.5
 @export var coyote_time: float = 0.12
 @export var jump_buffer: float = 0.12
@@ -29,7 +29,7 @@ extends CharacterBody2D
 @export var constant_speed_on_slopes: bool = true
 @export var stop_on_slopes: bool = true
 @export var collision_safe_margin: float = 0.08
-@export var downhill_speed_multiplier: float = 1.7
+@export var downhill_speed_multiplier: float = 1.3
 
 @export_group("Surfaces")
 @export var ice_friction: float = 0.0
@@ -46,7 +46,8 @@ var remaining_double_jumps: int = 0
 var input_direction: float = 0.0
 var facing_direction: float = 1.0
 var is_on_ice: bool = false
-
+var hearts_list : Array[TextureRect]
+var health = 3
 
 func _ready() -> void:
 	"""Configures the character body and starts its state machine."""
@@ -59,12 +60,33 @@ func _ready() -> void:
 	floor_stop_on_slope = stop_on_slopes
 	safe_margin = collision_safe_margin
 	state_machine.initialize(self)
+	
+
+	
+	var hearts_parent = $"Health bar/HBoxContainer"
+	for child in hearts_parent.get_children():
+		hearts_list.append(child)
+
+func take_damage():
+	if health > 0:
+		health -= 1
+		update_heart_display()
+
+
+func update_heart_display():
+	for i in range(hearts_list.size()):
+		hearts_list[i].visible = i < health
+
+
 
 
 func _process(delta: float) -> void:
 	"""Updates non-physics behaviour and hook visuals."""
-
 	state_machine.update(delta)
+	if Input.is_action_just_pressed("Take_damage"):
+		take_damage()
+
+	  
 
 
 func _unhandled_input(event: InputEvent) -> void:

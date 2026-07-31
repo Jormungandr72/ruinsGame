@@ -38,7 +38,7 @@ enum BreakStage {
 	BROKEN,
 }
 
-@export_range(1.0, 512.0, 1.0, "or_greater") var break_range: float = 28.0
+@export_range(1.0, 512.0, 1.0, "or_greater") var break_range: float = 64
 @export_range(0.0, 89.0, 1.0) var angle_tolerance_degrees: float = 35.0
 @export_range(1, 10, 1) var hits_per_stage: int = 1
 

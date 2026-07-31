@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://5togvo5l4hu3"]
+[gd_scene load_steps=13 format=3 uid="uid://5togvo5l4hu3"]
 
 [ext_resource type="Texture2D" uid="uid://cvoymb7b077c7" path="res://ASSETS/SPR_mainChara0.png" id="1_texture"]
 [ext_resource type="Script" uid="uid://dyuo8kml6vwea" path="res://SCRIPTS/player_controller.gd" id="2_player"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://c8ek7qchd6mrk" path="res://SCRIPTS/player_states/jump_state.gd" id="7_jump"]
 [ext_resource type="Script" uid="uid://3k67rrlmbsmt" path="res://SCRIPTS/player_states/fall_state.gd" id="8_fall"]
 [ext_resource type="Script" uid="uid://cm7usget0735l" path="res://SCRIPTS/player_states/grapple_state.gd" id="10_grapple"]
+[ext_resource type="Texture2D" uid="uid://doub3p30ksy1u" path="res://ASSETS/Heart image.PNG" id="11_12eh4"]
 [ext_resource type="Script" uid="uid://cqv3ft3dpvi46" path="res://SCRIPTS/camera_controller.gd" id="11_camera"]
 
 [sub_resource type="RectangleShape2D" id="PlayerShape"]
@@ -26,7 +27,7 @@ position = Vector2(-0.5, 0)
 shape = SubResource("PlayerShape")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(1.75, 1.75)
+zoom = Vector2(2, 2)
 script = ExtResource("11_camera")
 
 [node name="HookController" type="Node2D" parent="."]
@@ -58,3 +59,22 @@ script = ExtResource("10_grapple")
 [node name="SprMainChara0" type="Sprite2D" parent="."]
 position = Vector2(-1, 0)
 texture = ExtResource("1_texture")
+
+[node name="Health bar" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Health bar"]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(0.14632039, 0.18435581)
+
+[node name="Heart" type="TextureRect" parent="Health bar/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("11_12eh4")
+
+[node name="Heart2" type="TextureRect" parent="Health bar/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("11_12eh4")
+
+[node name="Heart3" type="TextureRect" parent="Health bar/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("11_12eh4")

@@ -1,2 +1,5 @@
+TextureRect
+HBoxContainer
+CanvasLayer
 TileMapLayer
 Window
