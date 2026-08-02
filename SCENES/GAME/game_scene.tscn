@@ -1,16 +1,18 @@
-[gd_scene load_steps=30 format=4 uid="uid://bf348y2o78rm3"]
+[gd_scene load_steps=32 format=4 uid="uid://bf348y2o78rm3"]
 
 [ext_resource type="PackedScene" uid="uid://5togvo5l4hu3" path="res://SCENES/GAME/player.tscn" id="1_player"]
 [ext_resource type="PackedScene" path="res://SCENES/breakable_ruins_tileset.tscn" id="4_pqy6s"]
 [ext_resource type="Texture2D" uid="uid://c8nb1h5o12sy7" path="res://ASSETS/TILE_BG_VAL.png" id="5_fj1yv"]
 [ext_resource type="Texture2D" uid="uid://dyowp04raai5u" path="res://ASSETS/TILE_OL_VAL.png" id="6_ysu2y"]
 [ext_resource type="Script" uid="uid://bmin737x3xb0i" path="res://SCRIPTS/hook_point.gd" id="7_hook_point"]
-[ext_resource type="Texture2D" uid="uid://des58qnxqjk0m" path="res://ASSETS/WORM/crawl/Worm_Crawl1.png" id="7_kwmh0"]
+[ext_resource type="Texture2D" uid="uid://bmi7a66wda6hi" path="res://ASSETS/WORM/crawl/Worm_Crawl1.png" id="7_kwmh0"]
 [ext_resource type="PackedScene" uid="uid://dkqm72301djrt" path="res://SCENES/foreground_tileset.tscn" id="8_foreground"]
-[ext_resource type="Texture2D" uid="uid://bi4jk1ddkas3s" path="res://ASSETS/WORM/crawl/Worm_Crawl2.png" id="8_nf046"]
-[ext_resource type="Texture2D" uid="uid://duoiv2gp7duui" path="res://ASSETS/WORM/crawl/Worm_Crawl3.png" id="9_ar3or"]
-[ext_resource type="Texture2D" uid="uid://dfpvrdptwrfsc" path="res://ASSETS/WORM/crawl/Worm_Crawl4.png" id="10_8mif7"]
+[ext_resource type="Texture2D" uid="uid://caol12mp834yf" path="res://ASSETS/WORM/crawl/Worm_Crawl2.png" id="8_nf046"]
+[ext_resource type="Texture2D" uid="uid://cy7e6e8ox8flb" path="res://ASSETS/WORM/crawl/Worm_Crawl3.png" id="9_ar3or"]
+[ext_resource type="Texture2D" uid="uid://xli0rn3i4ylx" path="res://ASSETS/WORM/crawl/Worm_Crawl4.png" id="10_8mif7"]
 [ext_resource type="Texture2D" uid="uid://dur3hk4b8agcx" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash1.png" id="11_8mif7"]
+[ext_resource type="Texture2D" uid="uid://bskd5km1srlju" path="res://ASSETS/WORM/crawl/Worm_Crawl5.png" id="11_dpwrl"]
+[ext_resource type="Texture2D" uid="uid://blm4ybpbs1plq" path="res://ASSETS/WORM/crawl/Worm_Crawl6.png" id="12_f7cfw"]
 [ext_resource type="Texture2D" uid="uid://c6sqpo4tm8wmk" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash2.png" id="12_nsdgf"]
 [ext_resource type="Texture2D" uid="uid://b0yxeew2jyi5t" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash3.png" id="13_dpwrl"]
 [ext_resource type="Texture2D" uid="uid://csw40uup0hmo1" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash4.png" id="14_f7cfw"]
@@ -911,17 +913,23 @@ sources/0 = SubResource("TileSetAtlasSource_lnm6e")
 [sub_resource type="SpriteFrames" id="SpriteFrames_v7rpj"]
 animations = [{
 "frames": [{
-"duration": 2.0,
+"duration": 1.21,
 "texture": ExtResource("7_kwmh0")
 }, {
-"duration": 2.0,
+"duration": 1.21,
 "texture": ExtResource("8_nf046")
 }, {
-"duration": 2.0,
+"duration": 1.11,
 "texture": ExtResource("9_ar3or")
 }, {
-"duration": 2.0,
+"duration": 1.21,
 "texture": ExtResource("10_8mif7")
+}, {
+"duration": 1.21,
+"texture": ExtResource("11_dpwrl")
+}, {
+"duration": 1.11,
+"texture": ExtResource("12_f7cfw")
 }],
 "loop": true,
 "name": &"Crawl",
@@ -1065,4 +1073,4 @@ metadata/_edit_use_anchors_ = true
 [node name="Worm" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_v7rpj")
 animation = &"Lunge Slash"
-frame_progress = 0.005179405
+frame_progress = 0.693225
