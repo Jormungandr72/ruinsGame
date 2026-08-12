@@ -1,97 +1,97 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1786127253
-CONVENTIONS.md::TextFile::-1::1785535637::0::1::::<><><>0<>0<><>::
-load_menu.tscn::PackedScene::1609534170304494938::1785535637::0::1::::<><><>0<>0<><>::uid://ce7lvbk3cw7fn::::res://SCRIPTS/load_menu.gd
-README.md::TextFile::-1::1785535637::0::1::::<><><>0<>0<><>::
-::res://addons/::1785535637
-::res://addons/godot-git-plugin/::1785535637
-git_plugin.gdextension::GDExtension::1731586254958930864::1785535637::0::1::::<><><>0<>0<><>::
-THIRDPARTY.md::TextFile::-1::1785535637::0::1::::<><><>0<>0<><>::
-::res://addons/godot-git-plugin/linux/::1785535637
-::res://addons/godot-git-plugin/macos/::1785535637
-::res://addons/godot-git-plugin/windows/::1786127248
-::res://ASSETS/::1785535698
-Heart image.PNG::CompressedTexture2D::8183304968569816504::1785535636::1785535698::1::::<><><>0<>0<>8149ffe9f5c332612104cd3daafcd564<>res://.godot/imported/Heart image.PNG-9d13361d9e976453ad60486f01b1b62e.ctex::
-SPR_mainChara0.png::CompressedTexture2D::6277187111732203028::1785535630::1785535698::1::::<><><>0<>0<>3ebab3e8da4ff38ed6ed12aaf5fd5a5e<>res://.godot/imported/SPR_mainChara0.png-ab9f5a0926f74b846f66da0ba026846d.ctex::
-TILE_BG_VAL.png::CompressedTexture2D::7116017680557848656::1785535636::1785535698::1::::<><><>0<>0<>3cd65d3f95af23df017daf86e130c335<>res://.godot/imported/TILE_BG_VAL.png-8998dc5b6d99b4a0a97b08e433f609cf.ctex::
-TILE_BK_VAL.png::CompressedTexture2D::6512162537943415802::1785535636::1785535698::1::::<><><>0<>0<>1d275a22679f16f031b200be6040ecb9<>res://.godot/imported/TILE_BK_VAL.png-1340c0574c9e4627f6feca3a6d321f73.ctex::
-TILE_FG_VAL.png::CompressedTexture2D::1128963164404756187::1785535636::1785535698::1::::<><><>0<>0<>313ef1f64d09f2b23b54b15f34d86b1e<>res://.godot/imported/TILE_FG_VAL.png-fe5e1fd819c2c5b0f4fa6f910b4d6782.ctex::
-TILE_FG_VAL_BREAK_DOWN.png::CompressedTexture2D::6146988177674855609::1785535636::1785535698::1::::<><><>0<>0<>501ce0badf247e945be98bfc5c775bbd<>res://.godot/imported/TILE_FG_VAL_BREAK_DOWN.png-b50e0f2c87e4db506aa422179b7a601b.ctex::
-TILE_FG_VAL_BREAK_LEFT.png::CompressedTexture2D::7777259789906821231::1785535636::1785535698::1::::<><><>0<>0<>16ef120add2af9af1e6331099b9b6f95<>res://.godot/imported/TILE_FG_VAL_BREAK_LEFT.png-2fdb79e984f9a6aaa85b36caeb190649.ctex::
-TILE_FG_VAL_BREAK_RIGHT.png::CompressedTexture2D::1221897926072667701::1785535636::1785535698::1::::<><><>0<>0<>7d72e7513a8f5aef173e0e371b19da50<>res://.godot/imported/TILE_FG_VAL_BREAK_RIGHT.png-002d268c572d08d47f62639f2955d0ee.ctex::
-TILE_FG_VAL_BREAK_UP.png::CompressedTexture2D::749163736564955394::1785535636::1785535698::1::::<><><>0<>0<>4282b001fcafa52f3072074736ff84e8<>res://.godot/imported/TILE_FG_VAL_BREAK_UP.png-86a101e011e79105493454deb2e14151.ctex::
-TILE_OB_VAL.png::CompressedTexture2D::9063571618575132746::1785535636::1785535698::1::::<><><>0<>0<>276ab73585f8015e1ca479adf4a8501b<>res://.godot/imported/TILE_OB_VAL.png-3972672f52a26b39b6f47ee8328d5c63.ctex::
-TILE_OL_VAL.png::CompressedTexture2D::8874059506353847056::1785535636::1785535698::1::::<><><>0<>0<>a7978986fedb5584b1b20da06b44ca19<>res://.godot/imported/TILE_OL_VAL.png-5b2a2e79709ffc96c107b62f6245a74f.ctex::
-::res://ASSETS/WORM/::1786127279
-::res://ASSETS/WORM/crawl/::1785679401
-Worm_Crawl1.png::CompressedTexture2D::3247146450266910498::1785679401::1785679401::1::::<><><>0<>0<>0070bd6edd176e81b5b10b601b059416<>res://.godot/imported/Worm_Crawl1.png-aad6f5341aae38c404162d7c042a404a.ctex::
-Worm_Crawl2.png::CompressedTexture2D::4802458410899869561::1785679401::1785679401::1::::<><><>0<>0<>580725d5807a91feb46e634ef69b3fcc<>res://.godot/imported/Worm_Crawl2.png-243bc74fe89fbddeb483dc0c46c1470f.ctex::
-Worm_Crawl3.png::CompressedTexture2D::6523732192151090947::1785679401::1785679401::1::::<><><>0<>0<>c402e633182175de0f791530be431957<>res://.godot/imported/Worm_Crawl3.png-1a8f00481895a2612f4f4e741e5c3c5a.ctex::
-Worm_Crawl4.png::CompressedTexture2D::1637582854022616853::1785679401::1785679401::1::::<><><>0<>0<>95609406a7535882d2df5f571d51e7c5<>res://.godot/imported/Worm_Crawl4.png-f951090dbe2f08fda9eac6ce38d5a394.ctex::
-Worm_Crawl5.png::CompressedTexture2D::3670699916490938714::1785679401::1785679401::1::::<><><>0<>0<>874966bc4ad559f57983d3d62a9bd4b9<>res://.godot/imported/Worm_Crawl5.png-ab17796ee72306377f14724a675f3a06.ctex::
-Worm_Crawl6.png::CompressedTexture2D::3185074224370065042::1785679401::1785679401::1::::<><><>0<>0<>9f684f79e71880d7af5ddc1180944e90<>res://.godot/imported/Worm_Crawl6.png-98eefc629a376ec376b3d2344cda4204.ctex::
-::res://ASSETS/WORM/eat player/::1786127284
-Worm Eat1.png::CompressedTexture2D::1159096586689445231::1786127284::1786127284::1::::<><><>0<>0<>0412f425316c6a834daa09c7a1fed0c4<>res://.godot/imported/Worm Eat1.png-815948c98a12c6d594f671bff38fcf59.ctex::
-Worm Eat2.png::CompressedTexture2D::4385784567950126137::1786127284::1786127284::1::::<><><>0<>0<>a29aaec893c5a72e76610e46efea3fc8<>res://.godot/imported/Worm Eat2.png-8d1a29f720a76be17e270aee29e5313c.ctex::
-Worm Eat3.png::CompressedTexture2D::4404148920285000539::1786127284::1786127284::1::::<><><>0<>0<>f9581c716d1b31460fcb13033670537e<>res://.godot/imported/Worm Eat3.png-1e32bedd96cdd29e4550681437e631cc.ctex::
-Worm Eat4.png::CompressedTexture2D::3688902764371363985::1786127284::1786127284::1::::<><><>0<>0<>e482b3696eb2c9b3041e32d819c37018<>res://.godot/imported/Worm Eat4.png-39e22475c7d385e350c99cae562b22c4.ctex::
-Worm Eat5.png::CompressedTexture2D::629301481464540731::1786127284::1786127284::1::::<><><>0<>0<>f2e4639c0682df8e580eb67f4781ad8f<>res://.godot/imported/Worm Eat5.png-6879b95a525b9fe5770ec17332fad441.ctex::
-Worm Eat6.png::CompressedTexture2D::5619730283435626351::1786127284::1786127284::1::::<><><>0<>0<>c7577962f5a435294608856a78d0d681<>res://.godot/imported/Worm Eat6.png-b4ad1e443624d221e8ea5b63cc90ba77.ctex::
-Worm Eat7.png::CompressedTexture2D::7572282868086373064::1786127284::1786127284::1::::<><><>0<>0<>61c48502374d2b17c2eff4fb5db2fd2a<>res://.godot/imported/Worm Eat7.png-bd9a32a9e6726779869fbc1778af4183.ctex::
-Worm Eat8.png::CompressedTexture2D::89235120749257074::1786127284::1786127284::1::::<><><>0<>0<>15a5ab1bb06c72b602c0cb8a87264d88<>res://.godot/imported/Worm Eat8.png-28eda25d2a36c4ae064ab4e5ab969253.ctex::
-Worm Eat9.png::CompressedTexture2D::74881496893177965::1786127284::1786127284::1::::<><><>0<>0<>df9518210593c924dc057f623e8ebc0e<>res://.godot/imported/Worm Eat9.png-b61603022090bb3024231355a2ecf578.ctex::
-Worm Eat10.png::CompressedTexture2D::5056583244409312044::1786127284::1786127284::1::::<><><>0<>0<>87a938586e71bb1348f31502116b17c1<>res://.godot/imported/Worm Eat10.png-7c77482cc2cda14715fbb449cad5540b.ctex::
-Worm Eat11.png::CompressedTexture2D::3632620481878468972::1786127284::1786127284::1::::<><><>0<>0<>80c69f7ab013bf4ca50970c9e8509734<>res://.godot/imported/Worm Eat11.png-13ebcc70082a45a4a54a045873f9432f.ctex::
-Worm Eat12.png::CompressedTexture2D::1825601902279641920::1786127284::1786127284::1::::<><><>0<>0<>ad279568f256f329d9ce789ae091cd24<>res://.godot/imported/Worm Eat12.png-0cde78269751866b2d94e95eafed2823.ctex::
-Worm Eat13.png::CompressedTexture2D::7657687444389623038::1786127284::1786127284::1::::<><><>0<>0<>c403204ad13f86dec911d7d0c71de360<>res://.godot/imported/Worm Eat13.png-301df7d00f99532cbe45634c74cdf079.ctex::
-Worm Eat14.png::CompressedTexture2D::8874770921720778084::1786127284::1786127284::1::::<><><>0<>0<>5857f721564bf1b28a32d0b53922ab53<>res://.godot/imported/Worm Eat14.png-e15eae6beff289fffc221abbfe5cac70.ctex::
-Worm Eat15.png::CompressedTexture2D::9007707653860860303::1786127284::1786127284::1::::<><><>0<>0<>eddf58a6709808f3069873aa7fb43f3c<>res://.godot/imported/Worm Eat15.png-b9abb50964b3ac0e945c77c77f193cb9.ctex::
-Worm Eat16.png::CompressedTexture2D::382131319966323517::1786127284::1786127284::1::::<><><>0<>0<>e6c31601587495e716ca6975bc8c99f1<>res://.godot/imported/Worm Eat16.png-bbd506ef81920d0b6f164616970126b2.ctex::
-Worm Eat17.png::CompressedTexture2D::4307395175514987085::1786127284::1786127284::1::::<><><>0<>0<>f0e6c0f02680618393632672d507810e<>res://.godot/imported/Worm Eat17.png-a2154026dd24c7b4c2a303b386f5df0d.ctex::
-Worm Eat18.png::CompressedTexture2D::1864141359912788271::1786127284::1786127284::1::::<><><>0<>0<>e2e57069f1a149f3b4cf9d71fafc3767<>res://.godot/imported/Worm Eat18.png-0a9155bec9f3ca64533d0441f6933de3.ctex::
-::res://ASSETS/WORM/lunge slash/::1785583158
-worm_lunge_slash1.png::CompressedTexture2D::8599846492136133347::1785583158::1785583158::1::::<><><>0<>0<>2e43528846346d3aa635997e1bfd6163<>res://.godot/imported/worm_lunge_slash1.png-96823db62a7fc1303b47acac3d2685ad.ctex::
-worm_lunge_slash2.png::CompressedTexture2D::6986853359537980898::1785583158::1785583158::1::::<><><>0<>0<>648b046b9cdd12d9669186ccbf186766<>res://.godot/imported/worm_lunge_slash2.png-986aed5ebf87083e231dfa6ac35f80f0.ctex::
-worm_lunge_slash3.png::CompressedTexture2D::4192090720069428319::1785583158::1785583158::1::::<><><>0<>0<>77fdd2d637b72cd4e5846fbaa1ba3a4f<>res://.godot/imported/worm_lunge_slash3.png-8484f8130785443d12987d1df383f5fc.ctex::
-worm_lunge_slash4.png::CompressedTexture2D::6083463383176270414::1785583158::1785583158::1::::<><><>0<>0<>eb5734213132037a12df7dd3091aee8d<>res://.godot/imported/worm_lunge_slash4.png-f985689a87d8d8b1de93e2196c837219.ctex::
-worm_lunge_slash5.png::CompressedTexture2D::5870681628101519817::1785583158::1785583158::1::::<><><>0<>0<>17a5b99c30321f9c18b9b83fc935bf2f<>res://.godot/imported/worm_lunge_slash5.png-774bddbeded7b3beed420cbbeaa4494a.ctex::
-worm_lunge_slash6.png::CompressedTexture2D::339428240580822595::1785583158::1785583158::1::::<><><>0<>0<>5319cf55ddde33383c99989bf7293d82<>res://.godot/imported/worm_lunge_slash6.png-608f3618d77b0043013792cb9da5989e.ctex::
-worm_lunge_slash7.png::CompressedTexture2D::5812607812418909338::1785583158::1785583158::1::::<><><>0<>0<>fa2125272fed649f6f6d7172af9a7d72<>res://.godot/imported/worm_lunge_slash7.png-21375dc5a90cf2898f7ade1814efec75.ctex::
-worm_lunge_slash8.png::CompressedTexture2D::5790171510049067891::1785583158::1785583158::1::::<><><>0<>0<>dbd0354f72f2ef147a583464198c56ee<>res://.godot/imported/worm_lunge_slash8.png-e1579c7ba41a6dcf3705da3459aa48ab.ctex::
-worm_lunge_slash9.png::CompressedTexture2D::3022488964210734971::1785583158::1785583158::1::::<><><>0<>0<>1184d0661d6de350a6991faba567a5b6<>res://.godot/imported/worm_lunge_slash9.png-5186a55cd85c46dcc4ddc1b351b3ed0e.ctex::
-worm_lunge_slash10.png::CompressedTexture2D::6063521090737568344::1785583158::1785583158::1::::<><><>0<>0<>114329be92d0da6254336886e5d0e66a<>res://.godot/imported/worm_lunge_slash10.png-0beb333bb87065e31a8dbc6ba55cfa11.ctex::
-worm_lunge_slash11.png::CompressedTexture2D::7375582708075757466::1785583158::1785583158::1::::<><><>0<>0<>71e7a5d9d4cadc3633630ccdd2da5f71<>res://.godot/imported/worm_lunge_slash11.png-4094446a9e37d563094459feb9b82c9d.ctex::
-::res://SCENES/::1785535637
-breakable_ruins_tileset.tscn::PackedScene::-1::1785535637::0::1::::<><><>0<>0<><>::res://ASSETS/TILE_FG_VAL_BREAK_UP.png<>res://ASSETS/TILE_FG_VAL_BREAK_DOWN.png<>res://ASSETS/TILE_FG_VAL_BREAK_LEFT.png<>res://ASSETS/TILE_FG_VAL_BREAK_RIGHT.png<>res://SCRIPTS/breakable_tilemap.gd
-foreground_tileset.tscn::PackedScene::7894967743398474449::1785535637::0::1::::<><><>0<>0<><>::uid://qc44gjskcy7l::::res://ASSETS/TILE_FG_VAL.png
-ruins_tileset.tscn::PackedScene::7447476383110042993::1785535637::0::1::::<><><>0<>0<><>::uid://c8nb1h5o12sy7::::res://ASSETS/TILE_BG_VAL.png<>uid://qc44gjskcy7l::::res://ASSETS/TILE_FG_VAL.png<>uid://dyowp04raai5u::::res://ASSETS/TILE_OL_VAL.png
-::res://SCENES/GAME/::1785679481
-game_scene.tscn::PackedScene::2796988505936324224::1785679481::0::1::::<><><>0<>0<><>::uid://5togvo5l4hu3::::res://SCENES/GAME/player.tscn<>res://SCENES/breakable_ruins_tileset.tscn<>uid://c8nb1h5o12sy7::::res://ASSETS/TILE_BG_VAL.png<>uid://dyowp04raai5u::::res://ASSETS/TILE_OL_VAL.png<>uid://bmin737x3xb0i::::res://SCRIPTS/hook_point.gd<>uid://bmi7a66wda6hi::::res://ASSETS/WORM/crawl/Worm_Crawl1.png<>uid://dkqm72301djrt::::res://SCENES/foreground_tileset.tscn<>uid://caol12mp834yf::::res://ASSETS/WORM/crawl/Worm_Crawl2.png<>uid://cy7e6e8ox8flb::::res://ASSETS/WORM/crawl/Worm_Crawl3.png<>uid://xli0rn3i4ylx::::res://ASSETS/WORM/crawl/Worm_Crawl4.png<>uid://dur3hk4b8agcx::::res://ASSETS/WORM/lunge slash/worm_lunge_slash1.png<>uid://bskd5km1srlju::::res://ASSETS/WORM/crawl/Worm_Crawl5.png<>uid://blm4ybpbs1plq::::res://ASSETS/WORM/crawl/Worm_Crawl6.png<>uid://c6sqpo4tm8wmk::::res://ASSETS/WORM/lunge slash/worm_lunge_slash2.png<>uid://b0yxeew2jyi5t::::res://ASSETS/WORM/lunge slash/worm_lunge_slash3.png<>uid://csw40uup0hmo1::::res://ASSETS/WORM/lunge slash/worm_lunge_slash4.png<>uid://cpv2jeu5fm3v6::::res://ASSETS/WORM/lunge slash/worm_lunge_slash5.png<>uid://e3olltd4dswh::::res://ASSETS/WORM/lunge slash/worm_lunge_slash6.png<>uid://co2w2ipylil67::::res://ASSETS/WORM/lunge slash/worm_lunge_slash7.png<>uid://coq2jqktw8bix::::res://ASSETS/WORM/lunge slash/worm_lunge_slash8.png<>uid://bjcd7mdvlm6xb::::res://ASSETS/WORM/lunge slash/worm_lunge_slash9.png<>uid://csnhkoju2q2sy::::res://ASSETS/WORM/lunge slash/worm_lunge_slash10.png<>uid://ddc11fw8ogsba::::res://ASSETS/WORM/lunge slash/worm_lunge_slash11.png
-player.tscn::PackedScene::2145750365126793016::1785535637::0::1::::<><><>0<>0<><>::uid://cvoymb7b077c7::::res://ASSETS/SPR_mainChara0.png<>uid://dyuo8kml6vwea::::res://SCRIPTS/player_controller.gd<>uid://dlfsb7xb2qn6f::::res://SCRIPTS/hook_controller.gd<>uid://dexmgakyofodc::::res://SCRIPTS/state_machine/state_machine.gd<>uid://sxihnsq0c1ls::::res://SCRIPTS/player_states/idle_state.gd<>uid://djjkpnqjkh6s6::::res://SCRIPTS/player_states/run_state.gd<>uid://c8ek7qchd6mrk::::res://SCRIPTS/player_states/jump_state.gd<>uid://3k67rrlmbsmt::::res://SCRIPTS/player_states/fall_state.gd<>uid://cm7usget0735l::::res://SCRIPTS/player_states/grapple_state.gd<>uid://doub3p30ksy1u::::res://ASSETS/Heart image.PNG<>uid://cqv3ft3dpvi46::::res://SCRIPTS/camera_controller.gd
-::res://SCENES/MENUS/::1785535637
-load_menu.tscn::PackedScene::4426285063236718459::1785535637::0::1::::<><><>0<>0<><>::uid://ce7lvbk3cw7fn::::res://SCRIPTS/load_menu.gd
-main_menu.tscn::PackedScene::4792127449185256149::1785535637::0::1::::<><><>0<>0<><>::uid://b48glek7pujwb::::res://SCRIPTS/main_menu.gd
-::res://SCENES/NPCS/::1785535637
-bubble_monkey.tscn::PackedScene::-1::1785535637::0::1::::<><><>0<>0<><>::res://SCRIPTS/npc/npc_controller.gd<>res://SCRIPTS/state_machine/state_machine.gd<>res://SCRIPTS/npc/npc_idle_state.gd
-worm.tscn::PackedScene::-1::1785535637::0::1::::<><><>0<>0<><>::res://SCRIPTS/npc/npc_controller.gd<>res://SCRIPTS/state_machine/state_machine.gd<>res://SCRIPTS/npc/npc_idle_state.gd
-::res://SCRIPTS/::1785535637
-breakable_tilemap.gd::GDScript::1928280221470263339::1785535637::0::1::::BreakableTileMap<>TileMapLayer<><>0<>0<><>::
-camera_controller.gd::GDScript::5940924844552324369::1785535637::0::1::::CameraController<>Camera2D<><>0<>0<><>::
-hook_controller.gd::GDScript::7942757627891527143::1785535637::0::1::::HookController<>Node2D<><>0<>0<><>::
-hook_point.gd::GDScript::3246049816863772086::1785535637::0::1::::HookPoint<>Marker2D<><>0<>0<><>::
-load_menu.gd::GDScript::5120362287907839111::1785535637::0::1::::<>Control<><>0<>0<><>::
-main_menu.gd::GDScript::4490405787785786017::1785535637::0::1::::<>Control<><>0<>0<><>::
-player_controller.gd::GDScript::8885991366884089432::1785535637::0::1::::PlayerController<>CharacterBody2D<><>0<>0<><>::
-::res://SCRIPTS/npc/::1785535637
-npc_controller.gd::GDScript::4641597061402194148::1785535637::0::1::::NpcController<>CharacterBody2D<><>0<>0<><>::
-npc_idle_state.gd::GDScript::6526205858792978011::1785535637::0::1::::NpcIdleState<>State<><>0<>0<><>::
-::res://SCRIPTS/player_states/::1785535637
-fall_state.gd::GDScript::1987871691260735323::1785535637::0::1::::PlayerFallState<>PlayerState<><>0<>0<><>::
-grapple_state.gd::GDScript::5682414385535412071::1785535637::0::1::::PlayerGrappleState<>PlayerState<><>0<>0<><>::
-idle_state.gd::GDScript::1311378821697939344::1785535637::0::1::::PlayerIdleState<>PlayerState<><>0<>0<><>::
-jump_state.gd::GDScript::7097995877576632196::1785535637::0::1::::PlayerJumpState<>PlayerState<><>0<>0<><>::
-player_state.gd::GDScript::6395260849194242808::1785535637::0::1::::PlayerState<>State<><>0<>0<><>::
-run_state.gd::GDScript::7810175708387386999::1785535637::0::1::::PlayerRunState<>PlayerState<><>0<>0<><>::
-::res://SCRIPTS/state_machine/::1785535637
-state.gd::GDScript::4048265544572502092::1785535637::0::1::::State<>Node<><>0<>0<><>::
-state_machine.gd::GDScript::7488237449208850344::1785535637::0::1::::StateMachine<>Node<><>0<>0<><>::
+::res://::1786458887
+CONVENTIONS.md::TextFile::-1::1784807094::0::1::::<><><>0<>0<><>::
+load_menu.tscn::PackedScene::1609534170304494938::1785518742::0::1::::<><><>0<>0<><>::uid://ce7lvbk3cw7fn::::res://SCRIPTS/load_menu.gd
+README.md::TextFile::-1::1784807094::0::1::::<><><>0<>0<><>::
+::res://addons/::1784807098
+::res://addons/godot-git-plugin/::1784807098
+git_plugin.gdextension::GDExtension::1731586254958930864::1784807094::0::1::::<><><>0<>0<><>::
+THIRDPARTY.md::TextFile::-1::1784807094::0::1::::<><><>0<>0<><>::
+::res://addons/godot-git-plugin/linux/::1784807098
+::res://addons/godot-git-plugin/macos/::1784807098
+::res://addons/godot-git-plugin/windows/::1786458882
+::res://ASSETS/::1786458826
+Heart image.PNG::CompressedTexture2D::8183304968569816504::1785523091::1785523092::1::::<><><>0<>0<>8149ffe9f5c332612104cd3daafcd564<>res://.godot/imported/Heart image.PNG-9d13361d9e976453ad60486f01b1b62e.ctex::
+SPR_mainChara0.png::CompressedTexture2D::6277187111732203028::1784807088::1785267768::1::::<><><>0<>0<>3ebab3e8da4ff38ed6ed12aaf5fd5a5e<>res://.godot/imported/SPR_mainChara0.png-ab9f5a0926f74b846f66da0ba026846d.ctex::
+TILE_BG_VAL.png::CompressedTexture2D::7116017680557848656::1785409497::1785267768::1::::<><><>0<>0<>3cd65d3f95af23df017daf86e130c335<>res://.godot/imported/TILE_BG_VAL.png-8998dc5b6d99b4a0a97b08e433f609cf.ctex::
+TILE_BK_VAL.png::CompressedTexture2D::6512162537943415802::1785526290::1786458888::1::::<><><>0<>0<>1d275a22679f16f031b200be6040ecb9<>res://.godot/imported/TILE_BK_VAL.png-1340c0574c9e4627f6feca3a6d321f73.ctex::
+TILE_FG_VAL.png::CompressedTexture2D::1128963164404756187::1785409497::1785267768::1::::<><><>0<>0<>313ef1f64d09f2b23b54b15f34d86b1e<>res://.godot/imported/TILE_FG_VAL.png-fe5e1fd819c2c5b0f4fa6f910b4d6782.ctex::
+TILE_FG_VAL_BREAK_DOWN.png::CompressedTexture2D::6146988177674855609::1785518742::1785518925::1::::<><><>0<>0<>501ce0badf247e945be98bfc5c775bbd<>res://.godot/imported/TILE_FG_VAL_BREAK_DOWN.png-b50e0f2c87e4db506aa422179b7a601b.ctex::
+TILE_FG_VAL_BREAK_LEFT.png::CompressedTexture2D::7777259789906821231::1785518742::1785518925::1::::<><><>0<>0<>16ef120add2af9af1e6331099b9b6f95<>res://.godot/imported/TILE_FG_VAL_BREAK_LEFT.png-2fdb79e984f9a6aaa85b36caeb190649.ctex::
+TILE_FG_VAL_BREAK_RIGHT.png::CompressedTexture2D::1221897926072667701::1785518742::1785518925::1::::<><><>0<>0<>7d72e7513a8f5aef173e0e371b19da50<>res://.godot/imported/TILE_FG_VAL_BREAK_RIGHT.png-002d268c572d08d47f62639f2955d0ee.ctex::
+TILE_FG_VAL_BREAK_UP.png::CompressedTexture2D::749163736564955394::1785518742::1785518925::1::::<><><>0<>0<>4282b001fcafa52f3072074736ff84e8<>res://.godot/imported/TILE_FG_VAL_BREAK_UP.png-86a101e011e79105493454deb2e14151.ctex::
+TILE_OB_VAL.png::CompressedTexture2D::9063571618575132746::1785526290::1786458889::1::::<><><>0<>0<>276ab73585f8015e1ca479adf4a8501b<>res://.godot/imported/TILE_OB_VAL.png-3972672f52a26b39b6f47ee8328d5c63.ctex::
+TILE_OL_VAL.png::CompressedTexture2D::8874059506353847056::1785409497::1785267768::1::::<><><>0<>0<>a7978986fedb5584b1b20da06b44ca19<>res://.godot/imported/TILE_OL_VAL.png-5b2a2e79709ffc96c107b62f6245a74f.ctex::
+::res://ASSETS/WORM/::1786458829
+::res://ASSETS/WORM/crawl/::1786458829
+Worm_Crawl1.png::CompressedTexture2D::3247146450266910498::1786458826::1786458888::1::::<><><>0<>0<>0070bd6edd176e81b5b10b601b059416<>res://.godot/imported/Worm_Crawl1.png-aad6f5341aae38c404162d7c042a404a.ctex::
+Worm_Crawl2.png::CompressedTexture2D::4802458410899869561::1786458826::1786458889::1::::<><><>0<>0<>580725d5807a91feb46e634ef69b3fcc<>res://.godot/imported/Worm_Crawl2.png-243bc74fe89fbddeb483dc0c46c1470f.ctex::
+Worm_Crawl3.png::CompressedTexture2D::6523732192151090947::1786458826::1786458889::1::::<><><>0<>0<>c402e633182175de0f791530be431957<>res://.godot/imported/Worm_Crawl3.png-1a8f00481895a2612f4f4e741e5c3c5a.ctex::
+Worm_Crawl4.png::CompressedTexture2D::1637582854022616853::1786458826::1786458889::1::::<><><>0<>0<>95609406a7535882d2df5f571d51e7c5<>res://.godot/imported/Worm_Crawl4.png-f951090dbe2f08fda9eac6ce38d5a394.ctex::
+Worm_Crawl5.png::CompressedTexture2D::3670699916490938714::1786458826::1786458889::1::::<><><>0<>0<>874966bc4ad559f57983d3d62a9bd4b9<>res://.godot/imported/Worm_Crawl5.png-ab17796ee72306377f14724a675f3a06.ctex::
+Worm_Crawl6.png::CompressedTexture2D::3185074224370065042::1786458826::1786458889::1::::<><><>0<>0<>9f684f79e71880d7af5ddc1180944e90<>res://.godot/imported/Worm_Crawl6.png-98eefc629a376ec376b3d2344cda4204.ctex::
+::res://ASSETS/WORM/eat player/::1786458829
+Worm Eat1.png::CompressedTexture2D::1159096586689445231::1786458826::1786458889::1::::<><><>0<>0<>0412f425316c6a834daa09c7a1fed0c4<>res://.godot/imported/Worm Eat1.png-815948c98a12c6d594f671bff38fcf59.ctex::
+Worm Eat2.png::CompressedTexture2D::4385784567950126137::1786458826::1786458889::1::::<><><>0<>0<>a29aaec893c5a72e76610e46efea3fc8<>res://.godot/imported/Worm Eat2.png-8d1a29f720a76be17e270aee29e5313c.ctex::
+Worm Eat3.png::CompressedTexture2D::4404148920285000539::1786458826::1786458889::1::::<><><>0<>0<>f9581c716d1b31460fcb13033670537e<>res://.godot/imported/Worm Eat3.png-1e32bedd96cdd29e4550681437e631cc.ctex::
+Worm Eat4.png::CompressedTexture2D::3688902764371363985::1786458826::1786458889::1::::<><><>0<>0<>e482b3696eb2c9b3041e32d819c37018<>res://.godot/imported/Worm Eat4.png-39e22475c7d385e350c99cae562b22c4.ctex::
+Worm Eat5.png::CompressedTexture2D::629301481464540731::1786458826::1786458889::1::::<><><>0<>0<>f2e4639c0682df8e580eb67f4781ad8f<>res://.godot/imported/Worm Eat5.png-6879b95a525b9fe5770ec17332fad441.ctex::
+Worm Eat6.png::CompressedTexture2D::5619730283435626351::1786458826::1786458889::1::::<><><>0<>0<>c7577962f5a435294608856a78d0d681<>res://.godot/imported/Worm Eat6.png-b4ad1e443624d221e8ea5b63cc90ba77.ctex::
+Worm Eat7.png::CompressedTexture2D::7572282868086373064::1786458826::1786458889::1::::<><><>0<>0<>61c48502374d2b17c2eff4fb5db2fd2a<>res://.godot/imported/Worm Eat7.png-bd9a32a9e6726779869fbc1778af4183.ctex::
+Worm Eat8.png::CompressedTexture2D::89235120749257074::1786458826::1786458889::1::::<><><>0<>0<>15a5ab1bb06c72b602c0cb8a87264d88<>res://.godot/imported/Worm Eat8.png-28eda25d2a36c4ae064ab4e5ab969253.ctex::
+Worm Eat9.png::CompressedTexture2D::74881496893177965::1786458826::1786458889::1::::<><><>0<>0<>df9518210593c924dc057f623e8ebc0e<>res://.godot/imported/Worm Eat9.png-b61603022090bb3024231355a2ecf578.ctex::
+Worm Eat10.png::CompressedTexture2D::5056583244409312044::1786458826::1786458889::1::::<><><>0<>0<>87a938586e71bb1348f31502116b17c1<>res://.godot/imported/Worm Eat10.png-7c77482cc2cda14715fbb449cad5540b.ctex::
+Worm Eat11.png::CompressedTexture2D::3632620481878468972::1786458826::1786458889::1::::<><><>0<>0<>80c69f7ab013bf4ca50970c9e8509734<>res://.godot/imported/Worm Eat11.png-13ebcc70082a45a4a54a045873f9432f.ctex::
+Worm Eat12.png::CompressedTexture2D::1825601902279641920::1786458826::1786458889::1::::<><><>0<>0<>ad279568f256f329d9ce789ae091cd24<>res://.godot/imported/Worm Eat12.png-0cde78269751866b2d94e95eafed2823.ctex::
+Worm Eat13.png::CompressedTexture2D::7657687444389623038::1786458826::1786458889::1::::<><><>0<>0<>c403204ad13f86dec911d7d0c71de360<>res://.godot/imported/Worm Eat13.png-301df7d00f99532cbe45634c74cdf079.ctex::
+Worm Eat14.png::CompressedTexture2D::8874770921720778084::1786458826::1786458888::1::::<><><>0<>0<>5857f721564bf1b28a32d0b53922ab53<>res://.godot/imported/Worm Eat14.png-e15eae6beff289fffc221abbfe5cac70.ctex::
+Worm Eat15.png::CompressedTexture2D::9007707653860860303::1786458826::1786458888::1::::<><><>0<>0<>eddf58a6709808f3069873aa7fb43f3c<>res://.godot/imported/Worm Eat15.png-b9abb50964b3ac0e945c77c77f193cb9.ctex::
+Worm Eat16.png::CompressedTexture2D::382131319966323517::1786458826::1786458888::1::::<><><>0<>0<>e6c31601587495e716ca6975bc8c99f1<>res://.godot/imported/Worm Eat16.png-bbd506ef81920d0b6f164616970126b2.ctex::
+Worm Eat17.png::CompressedTexture2D::4307395175514987085::1786458826::1786458888::1::::<><><>0<>0<>f0e6c0f02680618393632672d507810e<>res://.godot/imported/Worm Eat17.png-a2154026dd24c7b4c2a303b386f5df0d.ctex::
+Worm Eat18.png::CompressedTexture2D::1864141359912788271::1786458826::1786458888::1::::<><><>0<>0<>e2e57069f1a149f3b4cf9d71fafc3767<>res://.godot/imported/Worm Eat18.png-0a9155bec9f3ca64533d0441f6933de3.ctex::
+::res://ASSETS/WORM/lunge slash/::1786458829
+worm_lunge_slash1.png::CompressedTexture2D::8599846492136133347::1786458826::1786458888::1::::<><><>0<>0<>2e43528846346d3aa635997e1bfd6163<>res://.godot/imported/worm_lunge_slash1.png-96823db62a7fc1303b47acac3d2685ad.ctex::
+worm_lunge_slash2.png::CompressedTexture2D::6986853359537980898::1786458826::1786458888::1::::<><><>0<>0<>648b046b9cdd12d9669186ccbf186766<>res://.godot/imported/worm_lunge_slash2.png-986aed5ebf87083e231dfa6ac35f80f0.ctex::
+worm_lunge_slash3.png::CompressedTexture2D::4192090720069428319::1786458826::1786458888::1::::<><><>0<>0<>77fdd2d637b72cd4e5846fbaa1ba3a4f<>res://.godot/imported/worm_lunge_slash3.png-8484f8130785443d12987d1df383f5fc.ctex::
+worm_lunge_slash4.png::CompressedTexture2D::6083463383176270414::1786458826::1786458888::1::::<><><>0<>0<>eb5734213132037a12df7dd3091aee8d<>res://.godot/imported/worm_lunge_slash4.png-f985689a87d8d8b1de93e2196c837219.ctex::
+worm_lunge_slash5.png::CompressedTexture2D::5870681628101519817::1786458826::1786458888::1::::<><><>0<>0<>17a5b99c30321f9c18b9b83fc935bf2f<>res://.godot/imported/worm_lunge_slash5.png-774bddbeded7b3beed420cbbeaa4494a.ctex::
+worm_lunge_slash6.png::CompressedTexture2D::339428240580822595::1786458826::1786458888::1::::<><><>0<>0<>5319cf55ddde33383c99989bf7293d82<>res://.godot/imported/worm_lunge_slash6.png-608f3618d77b0043013792cb9da5989e.ctex::
+worm_lunge_slash7.png::CompressedTexture2D::5812607812418909338::1786458826::1786458888::1::::<><><>0<>0<>fa2125272fed649f6f6d7172af9a7d72<>res://.godot/imported/worm_lunge_slash7.png-21375dc5a90cf2898f7ade1814efec75.ctex::
+worm_lunge_slash8.png::CompressedTexture2D::5790171510049067891::1786458826::1786458888::1::::<><><>0<>0<>dbd0354f72f2ef147a583464198c56ee<>res://.godot/imported/worm_lunge_slash8.png-e1579c7ba41a6dcf3705da3459aa48ab.ctex::
+worm_lunge_slash9.png::CompressedTexture2D::3022488964210734971::1786458826::1786458888::1::::<><><>0<>0<>1184d0661d6de350a6991faba567a5b6<>res://.godot/imported/worm_lunge_slash9.png-5186a55cd85c46dcc4ddc1b351b3ed0e.ctex::
+worm_lunge_slash10.png::CompressedTexture2D::6063521090737568344::1786458826::1786458888::1::::<><><>0<>0<>114329be92d0da6254336886e5d0e66a<>res://.godot/imported/worm_lunge_slash10.png-0beb333bb87065e31a8dbc6ba55cfa11.ctex::
+worm_lunge_slash11.png::CompressedTexture2D::7375582708075757466::1786458826::1786458888::1::::<><><>0<>0<>71e7a5d9d4cadc3633630ccdd2da5f71<>res://.godot/imported/worm_lunge_slash11.png-4094446a9e37d563094459feb9b82c9d.ctex::
+::res://SCENES/::1785518758
+breakable_ruins_tileset.tscn::PackedScene::-1::1785518742::0::1::::<><><>0<>0<><>::res://ASSETS/TILE_FG_VAL_BREAK_UP.png<>res://ASSETS/TILE_FG_VAL_BREAK_DOWN.png<>res://ASSETS/TILE_FG_VAL_BREAK_LEFT.png<>res://ASSETS/TILE_FG_VAL_BREAK_RIGHT.png<>res://SCRIPTS/breakable_tilemap.gd
+foreground_tileset.tscn::PackedScene::7894967743398474449::1785518742::0::1::::<><><>0<>0<><>::uid://qc44gjskcy7l::::res://ASSETS/TILE_FG_VAL.png
+ruins_tileset.tscn::PackedScene::7447476383110042993::1785518758::0::1::::<><><>0<>0<><>::uid://c8nb1h5o12sy7::::res://ASSETS/TILE_BG_VAL.png<>uid://qc44gjskcy7l::::res://ASSETS/TILE_FG_VAL.png<>uid://dyowp04raai5u::::res://ASSETS/TILE_OL_VAL.png
+::res://SCENES/GAME/::1786458826
+game_scene.tscn::PackedScene::2796988505936324224::1786458826::0::1::::<><><>0<>0<><>::uid://5togvo5l4hu3::::res://SCENES/GAME/player.tscn<>res://SCENES/breakable_ruins_tileset.tscn<>uid://c8nb1h5o12sy7::::res://ASSETS/TILE_BG_VAL.png<>uid://dyowp04raai5u::::res://ASSETS/TILE_OL_VAL.png<>uid://bmin737x3xb0i::::res://SCRIPTS/hook_point.gd<>uid://bmi7a66wda6hi::::res://ASSETS/WORM/crawl/Worm_Crawl1.png<>uid://dkqm72301djrt::::res://SCENES/foreground_tileset.tscn<>uid://caol12mp834yf::::res://ASSETS/WORM/crawl/Worm_Crawl2.png<>uid://cy7e6e8ox8flb::::res://ASSETS/WORM/crawl/Worm_Crawl3.png<>uid://xli0rn3i4ylx::::res://ASSETS/WORM/crawl/Worm_Crawl4.png<>uid://dur3hk4b8agcx::::res://ASSETS/WORM/lunge slash/worm_lunge_slash1.png<>uid://bskd5km1srlju::::res://ASSETS/WORM/crawl/Worm_Crawl5.png<>uid://blm4ybpbs1plq::::res://ASSETS/WORM/crawl/Worm_Crawl6.png<>uid://c6sqpo4tm8wmk::::res://ASSETS/WORM/lunge slash/worm_lunge_slash2.png<>uid://b0yxeew2jyi5t::::res://ASSETS/WORM/lunge slash/worm_lunge_slash3.png<>uid://qrqffccifewl::::res://ASSETS/WORM/eat player/Worm Eat1.png<>uid://b3qrh4dx2domb::::res://ASSETS/WORM/eat player/Worm Eat2.png<>uid://csw40uup0hmo1::::res://ASSETS/WORM/lunge slash/worm_lunge_slash4.png<>uid://cpv2jeu5fm3v6::::res://ASSETS/WORM/lunge slash/worm_lunge_slash5.png<>uid://b30nxo112m16f::::res://ASSETS/WORM/eat player/Worm Eat3.png<>uid://e3olltd4dswh::::res://ASSETS/WORM/lunge slash/worm_lunge_slash6.png<>uid://bss6xpfaibxg8::::res://ASSETS/WORM/eat player/Worm Eat4.png<>uid://co2w2ipylil67::::res://ASSETS/WORM/lunge slash/worm_lunge_slash7.png<>uid://i73rd85suwe2::::res://ASSETS/WORM/eat player/Worm Eat5.png<>uid://cmciewbpukfi2::::res://ASSETS/WORM/eat player/Worm Eat6.png<>uid://coq2jqktw8bix::::res://ASSETS/WORM/lunge slash/worm_lunge_slash8.png<>uid://bjcd7mdvlm6xb::::res://ASSETS/WORM/lunge slash/worm_lunge_slash9.png<>uid://df5cnl0ljbaei::::res://ASSETS/WORM/eat player/Worm Eat7.png<>uid://bjhxo7h2s0di::::res://ASSETS/WORM/eat player/Worm Eat8.png<>uid://csnhkoju2q2sy::::res://ASSETS/WORM/lunge slash/worm_lunge_slash10.png<>uid://ddc11fw8ogsba::::res://ASSETS/WORM/lunge slash/worm_lunge_slash11.png<>uid://bcjj1etnaow0::::res://ASSETS/WORM/eat player/Worm Eat9.png<>uid://cebpgmqbot12w::::res://ASSETS/WORM/eat player/Worm Eat10.png<>uid://br0wy1jb2wqdg::::res://ASSETS/WORM/eat player/Worm Eat11.png<>uid://1alnqqh50kaq::::res://ASSETS/WORM/eat player/Worm Eat12.png<>uid://dhdo81m4qofkg::::res://ASSETS/WORM/eat player/Worm Eat13.png<>uid://dypageu23sbi7::::res://ASSETS/WORM/eat player/Worm Eat14.png<>uid://d1lnvne4o0cjn::::res://ASSETS/WORM/eat player/Worm Eat15.png<>uid://fpdv87co2wor::::res://ASSETS/WORM/eat player/Worm Eat16.png<>uid://b2msf0veao5qf::::res://ASSETS/WORM/eat player/Worm Eat17.png<>uid://1taevbgkbp3t::::res://ASSETS/WORM/eat player/Worm Eat18.png
+player.tscn::PackedScene::2145750365126793016::1785526268::0::1::::<><><>0<>0<><>::uid://cvoymb7b077c7::::res://ASSETS/SPR_mainChara0.png<>uid://dyuo8kml6vwea::::res://SCRIPTS/player_controller.gd<>uid://dlfsb7xb2qn6f::::res://SCRIPTS/hook_controller.gd<>uid://dexmgakyofodc::::res://SCRIPTS/state_machine/state_machine.gd<>uid://sxihnsq0c1ls::::res://SCRIPTS/player_states/idle_state.gd<>uid://djjkpnqjkh6s6::::res://SCRIPTS/player_states/run_state.gd<>uid://c8ek7qchd6mrk::::res://SCRIPTS/player_states/jump_state.gd<>uid://3k67rrlmbsmt::::res://SCRIPTS/player_states/fall_state.gd<>uid://cm7usget0735l::::res://SCRIPTS/player_states/grapple_state.gd<>uid://doub3p30ksy1u::::res://ASSETS/Heart image.PNG<>uid://cqv3ft3dpvi46::::res://SCRIPTS/camera_controller.gd
+::res://SCENES/MENUS/::1785518758
+load_menu.tscn::PackedScene::4426285063236718459::1785518758::0::1::::<><><>0<>0<><>::uid://ce7lvbk3cw7fn::::res://SCRIPTS/load_menu.gd
+main_menu.tscn::PackedScene::4792127449185256149::1785518758::0::1::::<><><>0<>0<><>::uid://b48glek7pujwb::::res://SCRIPTS/main_menu.gd
+::res://SCENES/NPCS/::1785518746
+bubble_monkey.tscn::PackedScene::-1::1785518742::0::1::::<><><>0<>0<><>::res://SCRIPTS/npc/npc_controller.gd<>res://SCRIPTS/state_machine/state_machine.gd<>res://SCRIPTS/npc/npc_idle_state.gd
+worm.tscn::PackedScene::-1::1785518742::0::1::::<><><>0<>0<><>::res://SCRIPTS/npc/npc_controller.gd<>res://SCRIPTS/state_machine/state_machine.gd<>res://SCRIPTS/npc/npc_idle_state.gd
+::res://SCRIPTS/::1785526193
+breakable_tilemap.gd::GDScript::1928280221470263339::1785520624::0::1::::BreakableTileMap<>TileMapLayer<><>0<>0<><>::
+camera_controller.gd::GDScript::5940924844552324369::1785518742::0::1::::CameraController<>Camera2D<><>0<>0<><>::
+hook_controller.gd::GDScript::7942757627891527143::1785518758::0::1::::HookController<>Node2D<><>0<>0<><>::
+hook_point.gd::GDScript::3246049816863772086::1785518742::0::1::::HookPoint<>Marker2D<><>0<>0<><>::
+load_menu.gd::GDScript::5120362287907839111::1784807094::0::1::::<>Control<><>0<>0<><>::
+main_menu.gd::GDScript::4490405787785786017::1784807094::0::1::::<>Control<><>0<>0<><>::
+player_controller.gd::GDScript::8885991366884089432::1785526193::0::1::::PlayerController<>CharacterBody2D<><>0<>0<><>::
+::res://SCRIPTS/npc/::1785518746
+npc_controller.gd::GDScript::4641597061402194148::1785518742::0::1::::NpcController<>CharacterBody2D<><>0<>0<><>::
+npc_idle_state.gd::GDScript::6526205858792978011::1785518742::0::1::::NpcIdleState<>State<><>0<>0<><>::
+::res://SCRIPTS/player_states/::1785518746
+fall_state.gd::GDScript::1987871691260735323::1785518742::0::1::::PlayerFallState<>PlayerState<><>0<>0<><>::
+grapple_state.gd::GDScript::5682414385535412071::1785518742::0::1::::PlayerGrappleState<>PlayerState<><>0<>0<><>::
+idle_state.gd::GDScript::1311378821697939344::1785518742::0::1::::PlayerIdleState<>PlayerState<><>0<>0<><>::
+jump_state.gd::GDScript::7097995877576632196::1785518742::0::1::::PlayerJumpState<>PlayerState<><>0<>0<><>::
+player_state.gd::GDScript::6395260849194242808::1785518742::0::1::::PlayerState<>State<><>0<>0<><>::
+run_state.gd::GDScript::7810175708387386999::1785518742::0::1::::PlayerRunState<>PlayerState<><>0<>0<><>::
+::res://SCRIPTS/state_machine/::1785518746
+state.gd::GDScript::4048265544572502092::1785518742::0::1::::State<>Node<><>0<>0<><>::
+state_machine.gd::GDScript::7488237449208850344::1785518742::0::1::::StateMachine<>Node<><>0<>0<><>::
