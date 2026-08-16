@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0yxeew2jyi5t"
-path="res://.godot/imported/worm_lunge_slash3.png-8484f8130785443d12987d1df383f5fc.ctex"
+uid="uid://b18aq77yrhsbh"
+path="res://.godot/imported/EMERGE-TO-CRAWL1.png-ea491b7f02cbc75c39eec1ce1e4f41fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSETS/WORM/lunge slash/worm_lunge_slash3.png"
-dest_files=["res://.godot/imported/worm_lunge_slash3.png-8484f8130785443d12987d1df383f5fc.ctex"]
+source_file="res://ASSETS/WORM/crawl/EMERGE-TO-CRAWL1.png"
+dest_files=["res://.godot/imported/EMERGE-TO-CRAWL1.png-ea491b7f02cbc75c39eec1ce1e4f41fb.ctex"]
 
 [params]
 
