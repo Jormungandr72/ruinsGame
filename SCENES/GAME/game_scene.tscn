@@ -1,4 +1,4 @@
-[gd_scene load_steps=89 format=4 uid="uid://bf348y2o78rm3"]
+[gd_scene load_steps=95 format=4 uid="uid://bf348y2o78rm3"]
 
 [ext_resource type="PackedScene" uid="uid://5togvo5l4hu3" path="res://SCENES/GAME/player.tscn" id="1_player"]
 [ext_resource type="PackedScene" path="res://SCENES/breakable_ruins_tileset.tscn" id="4_pqy6s"]
@@ -61,12 +61,18 @@
 [ext_resource type="Texture2D" uid="uid://dl18t3kgxsklo" path="res://ASSETS/WORM/crawl/EMERGE-TO-CRAWL4.png" id="49_8kpq4"]
 [ext_resource type="Texture2D" uid="uid://diou6nwbffr51" path="res://ASSETS/WORM/lunge slash fail/lunge fail11.png" id="49_dmdem"]
 [ext_resource type="Texture2D" uid="uid://bccatdaliporg" path="res://ASSETS/WORM/crawl eat/crawl attack8.png" id="49_m220k"]
+[ext_resource type="Texture2D" uid="uid://de1uhbtk8lx6v" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil9.png" id="50_4o1e3"]
 [ext_resource type="Texture2D" uid="uid://4lp5a18v5no3" path="res://ASSETS/WORM/lunge slash fail/lunge fail12.png" id="50_8kpq4"]
 [ext_resource type="Texture2D" uid="uid://c4vnlkot6gp4o" path="res://ASSETS/WORM/crawl eat/crawl attack9.png" id="50_lubrp"]
 [ext_resource type="Texture2D" uid="uid://4aravkm507hv" path="res://ASSETS/WORM/crawl eat/crawl attack10.png" id="51_5bbok"]
+[ext_resource type="Texture2D" uid="uid://xxl7ssjr6e3c" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil10.png" id="51_c1spf"]
+[ext_resource type="Texture2D" uid="uid://bj8kqyjtxm04c" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil11.png" id="52_fbk4n"]
 [ext_resource type="Texture2D" uid="uid://dyn06ytxe65xl" path="res://ASSETS/WORM/crawl eat/crawl attack11.png" id="52_nirmj"]
 [ext_resource type="Texture2D" uid="uid://1id2wcr0320m" path="res://ASSETS/WORM/crawl eat/crawl attack12.png" id="53_4o1e3"]
+[ext_resource type="Texture2D" uid="uid://cqlehcbotwp4x" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil12.png" id="53_n0ova"]
 [ext_resource type="Texture2D" uid="uid://c5vr8uevw38jf" path="res://ASSETS/WORM/crawl eat/crawl attack13.png" id="54_c1spf"]
+[ext_resource type="Texture2D" uid="uid://dlfeujnvunny4" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil13.png" id="54_xgomp"]
+[ext_resource type="Texture2D" uid="uid://cp6xmxawkl6o4" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil14.png" id="55_bcyed"]
 [ext_resource type="Texture2D" uid="uid://liv6450ax44j" path="res://ASSETS/WORM/crawl eat/crawl attack14.png" id="55_fbk4n"]
 [ext_resource type="Texture2D" uid="uid://bnsrjc5tnee1m" path="res://ASSETS/WORM/crawl eat/crawl attack15.png" id="56_n0ova"]
 [ext_resource type="Texture2D" uid="uid://bqkqelo8gu0d3" path="res://ASSETS/WORM/crawl eat/crawl attack16.png" id="57_xgomp"]
@@ -1107,16 +1113,63 @@ animations = [{
 "duration": 1.41,
 "texture": ExtResource("45_mt0sr")
 }, {
-"duration": 1.11,
+"duration": 0.91,
 "texture": ExtResource("46_l7bb8")
 }, {
 "duration": 0.61,
 "texture": ExtResource("47_2t6qq")
 }, {
-"duration": 1.01,
+"duration": 0.71,
 "texture": ExtResource("48_lvcyi")
 }, {
-"duration": 1.01,
+"duration": 0.81,
+"texture": ExtResource("49_m220k")
+}, {
+"duration": 1.11,
+"texture": ExtResource("50_4o1e3")
+}, {
+"duration": 1.31,
+"texture": ExtResource("51_c1spf")
+}, {
+"duration": 1.91,
+"texture": ExtResource("52_fbk4n")
+}, {
+"duration": 1.71,
+"texture": ExtResource("53_n0ova")
+}, {
+"duration": 1.61,
+"texture": ExtResource("54_xgomp")
+}, {
+"duration": 1.61,
+"texture": ExtResource("55_bcyed")
+}],
+"loop": true,
+"name": &"crawl attack fail",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.41,
+"texture": ExtResource("42_44ekr")
+}, {
+"duration": 1.41,
+"texture": ExtResource("43_fwbxh")
+}, {
+"duration": 1.41,
+"texture": ExtResource("44_reikj")
+}, {
+"duration": 1.41,
+"texture": ExtResource("45_mt0sr")
+}, {
+"duration": 0.91,
+"texture": ExtResource("46_l7bb8")
+}, {
+"duration": 0.61,
+"texture": ExtResource("47_2t6qq")
+}, {
+"duration": 0.71,
+"texture": ExtResource("48_lvcyi")
+}, {
+"duration": 0.81,
 "texture": ExtResource("49_m220k")
 }, {
 "duration": 1.61,
@@ -1345,5 +1398,5 @@ metadata/_edit_use_anchors_ = true
 [node name="Worm" type="AnimatedSprite2D" parent="."]
 position = Vector2(-59, -27)
 sprite_frames = SubResource("SpriteFrames_v7rpj")
-animation = &"crawl to retreat "
-frame_progress = 0.08430374
+animation = &"Crawl"
+frame_progress = 0.106097616
