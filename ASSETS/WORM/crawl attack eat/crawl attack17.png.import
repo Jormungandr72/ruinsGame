@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4huyde5ppfnd"
-path="res://.godot/imported/crawl attack5.png-8c87bdbcd5e85adc036158a801c284bc.ctex"
+uid="uid://bp3dqtkwtvi6g"
+path="res://.godot/imported/crawl attack17.png-3a867fdf8e01c0a6e51f693c252d5f60.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSETS/WORM/crawl eat/crawl attack5.png"
-dest_files=["res://.godot/imported/crawl attack5.png-8c87bdbcd5e85adc036158a801c284bc.ctex"]
+source_file="res://ASSETS/WORM/crawl attack eat/crawl attack17.png"
+dest_files=["res://.godot/imported/crawl attack17.png-3a867fdf8e01c0a6e51f693c252d5f60.ctex"]
 
 [params]
 
