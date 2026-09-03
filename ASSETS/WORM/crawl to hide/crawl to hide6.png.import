@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cp7jjaqb3qgyg"
-path="res://.godot/imported/crawl to hide3.png-1153fe0d34dfc27bc0c57147c86c581a.ctex"
+uid="uid://frksxtflxmb2"
+path="res://.godot/imported/crawl to hide6.png-fc8b8ff9fb16b842ac029a82c4e66b03.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSETS/WORM/crawl to hide/crawl to hide3.png"
-dest_files=["res://.godot/imported/crawl to hide3.png-1153fe0d34dfc27bc0c57147c86c581a.ctex"]
+source_file="res://ASSETS/WORM/crawl to hide/crawl to hide6.png"
+dest_files=["res://.godot/imported/crawl to hide6.png-fc8b8ff9fb16b842ac029a82c4e66b03.ctex"]
 
 [params]
 
