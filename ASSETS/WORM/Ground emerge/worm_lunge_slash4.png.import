@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dur3hk4b8agcx"
-path="res://.godot/imported/worm_lunge_slash1.png-fd31eb6ad042115c51c92d8c9302f37d.ctex"
+uid="uid://csw40uup0hmo1"
+path="res://.godot/imported/worm_lunge_slash4.png-0b6bc5f33b22811f3096f024f055bbd4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSETS/WORM/lunge slash success/worm_lunge_slash1.png"
-dest_files=["res://.godot/imported/worm_lunge_slash1.png-fd31eb6ad042115c51c92d8c9302f37d.ctex"]
+source_file="res://ASSETS/WORM/Ground emerge/worm_lunge_slash4.png"
+dest_files=["res://.godot/imported/worm_lunge_slash4.png-0b6bc5f33b22811f3096f024f055bbd4.ctex"]
 
 [params]
 

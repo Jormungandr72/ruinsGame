@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0yxeew2jyi5t"
-path="res://.godot/imported/worm_lunge_slash3.png-0684f3ebd7c1d63b3915e878b135b53a.ctex"
+path="res://.godot/imported/worm_lunge_slash3.png-93bd1fc07cfc1f2c8a142a32afd4cbb4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSETS/WORM/lunge slash success/worm_lunge_slash3.png"
-dest_files=["res://.godot/imported/worm_lunge_slash3.png-0684f3ebd7c1d63b3915e878b135b53a.ctex"]
+source_file="res://ASSETS/WORM/Ground emerge/worm_lunge_slash3.png"
+dest_files=["res://.godot/imported/worm_lunge_slash3.png-93bd1fc07cfc1f2c8a142a32afd4cbb4.ctex"]
 
 [params]
 
