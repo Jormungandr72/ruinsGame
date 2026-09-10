@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=4 uid="uid://bf348y2o78rm3"]
+[gd_scene load_steps=98 format=4 uid="uid://bf348y2o78rm3"]
 
 [ext_resource type="PackedScene" uid="uid://5togvo5l4hu3" path="res://SCENES/GAME/player.tscn" id="1_player"]
 [ext_resource type="PackedScene" path="res://SCENES/breakable_ruins_tileset.tscn" id="4_pqy6s"]
@@ -10,27 +10,15 @@
 [ext_resource type="Texture2D" uid="uid://caol12mp834yf" path="res://ASSETS/WORM/crawl/Worm_Crawl2.png" id="8_nf046"]
 [ext_resource type="Texture2D" uid="uid://cy7e6e8ox8flb" path="res://ASSETS/WORM/crawl/Worm_Crawl3.png" id="9_ar3or"]
 [ext_resource type="Texture2D" uid="uid://xli0rn3i4ylx" path="res://ASSETS/WORM/crawl/Worm_Crawl4.png" id="10_8mif7"]
-[ext_resource type="Texture2D" uid="uid://dur3hk4b8agcx" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash1.png" id="11_8mif7"]
 [ext_resource type="Texture2D" uid="uid://bskd5km1srlju" path="res://ASSETS/WORM/crawl/Worm_Crawl5.png" id="11_dpwrl"]
 [ext_resource type="Texture2D" uid="uid://blm4ybpbs1plq" path="res://ASSETS/WORM/crawl/Worm_Crawl6.png" id="12_f7cfw"]
-[ext_resource type="Texture2D" uid="uid://c6sqpo4tm8wmk" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash2.png" id="12_nsdgf"]
-[ext_resource type="Texture2D" uid="uid://b0yxeew2jyi5t" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash3.png" id="13_dpwrl"]
-[ext_resource type="Texture2D" uid="uid://qrqffccifewl" path="res://ASSETS/WORM/eat player/Worm Eat1.png" id="13_seas3"]
 [ext_resource type="Texture2D" uid="uid://b3qrh4dx2domb" path="res://ASSETS/WORM/eat player/Worm Eat2.png" id="14_etrdn"]
-[ext_resource type="Texture2D" uid="uid://csw40uup0hmo1" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash4.png" id="14_f7cfw"]
-[ext_resource type="Texture2D" uid="uid://cpv2jeu5fm3v6" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash5.png" id="15_4jni1"]
 [ext_resource type="Texture2D" uid="uid://b30nxo112m16f" path="res://ASSETS/WORM/eat player/Worm Eat3.png" id="15_5mu0j"]
-[ext_resource type="Texture2D" uid="uid://e3olltd4dswh" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash6.png" id="16_tual2"]
 [ext_resource type="Texture2D" uid="uid://bss6xpfaibxg8" path="res://ASSETS/WORM/eat player/Worm Eat4.png" id="16_yiodi"]
-[ext_resource type="Texture2D" uid="uid://co2w2ipylil67" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash7.png" id="17_kkde5"]
 [ext_resource type="Texture2D" uid="uid://i73rd85suwe2" path="res://ASSETS/WORM/eat player/Worm Eat5.png" id="17_u6r7y"]
 [ext_resource type="Texture2D" uid="uid://cmciewbpukfi2" path="res://ASSETS/WORM/eat player/Worm Eat6.png" id="18_56pig"]
-[ext_resource type="Texture2D" uid="uid://coq2jqktw8bix" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash8.png" id="18_dx1gy"]
-[ext_resource type="Texture2D" uid="uid://bjcd7mdvlm6xb" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash9.png" id="19_n0ae6"]
 [ext_resource type="Texture2D" uid="uid://df5cnl0ljbaei" path="res://ASSETS/WORM/eat player/Worm Eat7.png" id="19_wa66x"]
 [ext_resource type="Texture2D" uid="uid://bjhxo7h2s0di" path="res://ASSETS/WORM/eat player/Worm Eat8.png" id="20_jcavq"]
-[ext_resource type="Texture2D" uid="uid://csnhkoju2q2sy" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash10.png" id="20_v7rpj"]
-[ext_resource type="Texture2D" uid="uid://ddc11fw8ogsba" path="res://ASSETS/WORM/lunge slash/worm_lunge_slash11.png" id="21_88sn1"]
 [ext_resource type="Texture2D" uid="uid://bcjj1etnaow0" path="res://ASSETS/WORM/eat player/Worm Eat9.png" id="21_gf67j"]
 [ext_resource type="Texture2D" uid="uid://cebpgmqbot12w" path="res://ASSETS/WORM/eat player/Worm Eat10.png" id="22_ixf11"]
 [ext_resource type="Texture2D" uid="uid://br0wy1jb2wqdg" path="res://ASSETS/WORM/eat player/Worm Eat11.png" id="23_f2lt3"]
@@ -41,6 +29,66 @@
 [ext_resource type="Texture2D" uid="uid://fpdv87co2wor" path="res://ASSETS/WORM/eat player/Worm Eat16.png" id="28_5fkng"]
 [ext_resource type="Texture2D" uid="uid://b2msf0veao5qf" path="res://ASSETS/WORM/eat player/Worm Eat17.png" id="29_dmdem"]
 [ext_resource type="Texture2D" uid="uid://1taevbgkbp3t" path="res://ASSETS/WORM/eat player/Worm Eat18.png" id="30_8kpq4"]
+[ext_resource type="Texture2D" uid="uid://dur3hk4b8agcx" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash1.png" id="30_seas3"]
+[ext_resource type="Texture2D" uid="uid://c6sqpo4tm8wmk" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash2.png" id="31_etrdn"]
+[ext_resource type="Texture2D" uid="uid://b0yxeew2jyi5t" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash3.png" id="32_5mu0j"]
+[ext_resource type="Texture2D" uid="uid://csw40uup0hmo1" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash4.png" id="33_yiodi"]
+[ext_resource type="Texture2D" uid="uid://cpv2jeu5fm3v6" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash5.png" id="34_u6r7y"]
+[ext_resource type="Texture2D" uid="uid://e3olltd4dswh" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash6.png" id="35_56pig"]
+[ext_resource type="Texture2D" uid="uid://fojkd76xbuhy" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash7.png" id="36_wa66x"]
+[ext_resource type="Texture2D" uid="uid://i64rsrbongxt" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash8.png" id="37_jcavq"]
+[ext_resource type="Texture2D" uid="uid://b0qo13fmtcnqv" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash9.png" id="38_gf67j"]
+[ext_resource type="Texture2D" uid="uid://bi3kn2fvw2ntd" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash10.png" id="39_ixf11"]
+[ext_resource type="Texture2D" uid="uid://cy8trkybo4yix" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash11.png" id="40_f2lt3"]
+[ext_resource type="Texture2D" uid="uid://pk6j0q1y1qef" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash12.png" id="41_4eh4j"]
+[ext_resource type="Texture2D" uid="uid://ncayg5h3klom" path="res://ASSETS/WORM/lunge slash fail/lunge fail4.png" id="42_ixf11"]
+[ext_resource type="Texture2D" uid="uid://0misvnk7qhy3" path="res://ASSETS/WORM/crawl attack eat/crawl attack1.png" id="42_nirmj"]
+[ext_resource type="Texture2D" uid="uid://b7223rb56teec" path="res://ASSETS/WORM/crawl attack eat/crawl attack2.png" id="43_4o1e3"]
+[ext_resource type="Texture2D" uid="uid://batn0np13jc1k" path="res://ASSETS/WORM/lunge slash fail/lunge fail5.png" id="43_f2lt3"]
+[ext_resource type="Texture2D" uid="uid://4cuxf7ayvw51" path="res://ASSETS/WORM/lunge slash fail/lunge fail6.png" id="44_4eh4j"]
+[ext_resource type="Texture2D" uid="uid://43yo0deeg7b1" path="res://ASSETS/WORM/crawl attack eat/crawl attack3.png" id="44_c1spf"]
+[ext_resource type="Texture2D" uid="uid://yoomsvn4pwnd" path="res://ASSETS/WORM/crawl attack eat/crawl attack4.png" id="45_fbk4n"]
+[ext_resource type="Texture2D" uid="uid://1oy7t1rkrmwt" path="res://ASSETS/WORM/lunge slash fail/lunge fail7.png" id="45_hle1p"]
+[ext_resource type="Texture2D" uid="uid://b7qaddpcoum8y" path="res://ASSETS/WORM/lunge slash fail/lunge fail8.png" id="46_3rrhp"]
+[ext_resource type="Texture2D" uid="uid://b18aq77yrhsbh" path="res://ASSETS/WORM/crawl/EMERGE-TO-CRAWL1.png" id="46_k2ctj"]
+[ext_resource type="Texture2D" uid="uid://4huyde5ppfnd" path="res://ASSETS/WORM/crawl attack eat/crawl attack5.png" id="46_n0ova"]
+[ext_resource type="Texture2D" uid="uid://dhj021gldgd3f" path="res://ASSETS/WORM/crawl/EMERGE-TO-CRAWL2.png" id="47_5fkng"]
+[ext_resource type="Texture2D" uid="uid://db1cdp8vjfbuc" path="res://ASSETS/WORM/lunge slash fail/lunge fail9.png" id="47_k2ctj"]
+[ext_resource type="Texture2D" uid="uid://bbwhickacp4lc" path="res://ASSETS/WORM/crawl attack eat/crawl attack6.png" id="47_xgomp"]
+[ext_resource type="Texture2D" uid="uid://cc6d1hod5boo4" path="res://ASSETS/WORM/lunge slash fail/lunge fail10.png" id="48_5fkng"]
+[ext_resource type="Texture2D" uid="uid://bu7yroy2k83gh" path="res://ASSETS/WORM/crawl attack eat/crawl attack7.png" id="48_bcyed"]
+[ext_resource type="Texture2D" uid="uid://dwp5885v0clgj" path="res://ASSETS/WORM/crawl/EMERGE-TO-CRAWL3.png" id="48_dmdem"]
+[ext_resource type="Texture2D" uid="uid://dl18t3kgxsklo" path="res://ASSETS/WORM/crawl/EMERGE-TO-CRAWL4.png" id="49_8kpq4"]
+[ext_resource type="Texture2D" uid="uid://diou6nwbffr51" path="res://ASSETS/WORM/lunge slash fail/lunge fail11.png" id="49_dmdem"]
+[ext_resource type="Texture2D" uid="uid://bccatdaliporg" path="res://ASSETS/WORM/crawl attack eat/crawl attack8.png" id="49_s0p5u"]
+[ext_resource type="Texture2D" uid="uid://de1uhbtk8lx6v" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil9.png" id="50_4o1e3"]
+[ext_resource type="Texture2D" uid="uid://4lp5a18v5no3" path="res://ASSETS/WORM/lunge slash fail/lunge fail12.png" id="50_8kpq4"]
+[ext_resource type="Texture2D" uid="uid://xxl7ssjr6e3c" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil10.png" id="51_c1spf"]
+[ext_resource type="Texture2D" uid="uid://bj8kqyjtxm04c" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil11.png" id="52_fbk4n"]
+[ext_resource type="Texture2D" uid="uid://cqlehcbotwp4x" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil12.png" id="53_n0ova"]
+[ext_resource type="Texture2D" uid="uid://dlfeujnvunny4" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil13.png" id="54_xgomp"]
+[ext_resource type="Texture2D" uid="uid://cp6xmxawkl6o4" path="res://ASSETS/WORM/crawl attack fail/crawl attack faiil14.png" id="55_bcyed"]
+[ext_resource type="Texture2D" uid="uid://c4vnlkot6gp4o" path="res://ASSETS/WORM/crawl attack eat/crawl attack9.png" id="56_cvntl"]
+[ext_resource type="Texture2D" uid="uid://4aravkm507hv" path="res://ASSETS/WORM/crawl attack eat/crawl attack10.png" id="57_aek0c"]
+[ext_resource type="Texture2D" uid="uid://bplq0tqjlwc6k" path="res://ASSETS/WORM/crawl attack eat/crawl attack11.png" id="58_4o1e3"]
+[ext_resource type="Texture2D" uid="uid://1id2wcr0320m" path="res://ASSETS/WORM/crawl attack eat/crawl attack12.png" id="58_ntsam"]
+[ext_resource type="Texture2D" uid="uid://c5vr8uevw38jf" path="res://ASSETS/WORM/crawl attack eat/crawl attack13.png" id="59_rbwec"]
+[ext_resource type="Texture2D" uid="uid://liv6450ax44j" path="res://ASSETS/WORM/crawl attack eat/crawl attack14.png" id="60_d3ywt"]
+[ext_resource type="Texture2D" uid="uid://bnsrjc5tnee1m" path="res://ASSETS/WORM/crawl attack eat/crawl attack15.png" id="61_wm7ni"]
+[ext_resource type="Texture2D" uid="uid://bqkqelo8gu0d3" path="res://ASSETS/WORM/crawl attack eat/crawl attack16.png" id="62_ksatq"]
+[ext_resource type="Texture2D" uid="uid://2eputkglekqh" path="res://ASSETS/WORM/crawl to hide/crawl to hide1.png" id="63_2t6qq"]
+[ext_resource type="Texture2D" uid="uid://bp3dqtkwtvi6g" path="res://ASSETS/WORM/crawl attack eat/crawl attack17.png" id="63_a1qct"]
+[ext_resource type="Texture2D" uid="uid://f7wu40e1rpre" path="res://ASSETS/WORM/crawl to hide/crawl to hide2.png" id="64_lvcyi"]
+[ext_resource type="Texture2D" uid="uid://b2v4qlr22jing" path="res://ASSETS/WORM/crawl attack eat/crawl attack18.png" id="64_oa6eu"]
+[ext_resource type="Texture2D" uid="uid://xfffkdiunm3d" path="res://ASSETS/WORM/crawl attack eat/crawl attack19.png" id="65_ecrts"]
+[ext_resource type="Texture2D" uid="uid://cp7jjaqb3qgyg" path="res://ASSETS/WORM/crawl to hide/crawl to hide3.png" id="65_m220k"]
+[ext_resource type="Texture2D" uid="uid://mlsdnmgxnlie" path="res://ASSETS/WORM/crawl attack eat/crawl attack20.png" id="66_labr6"]
+[ext_resource type="Texture2D" uid="uid://cvf6awgii6wto" path="res://ASSETS/WORM/crawl to hide/crawl to hide4.png" id="66_lubrp"]
+[ext_resource type="Texture2D" uid="uid://ckcu0g16d4sva" path="res://ASSETS/WORM/crawl to hide/crawl to hide5.png" id="67_5bbok"]
+[ext_resource type="Texture2D" uid="uid://pd3u14jijeqc" path="res://ASSETS/WORM/crawl attack eat/crawl attack21.png" id="67_lm7m6"]
+[ext_resource type="Texture2D" uid="uid://frksxtflxmb2" path="res://ASSETS/WORM/crawl to hide/crawl to hide6.png" id="74_n0ova"]
+[ext_resource type="Texture2D" uid="uid://d0y4togdq8ujv" path="res://ASSETS/WORM/crawl to hide/crawl to hide7.png" id="75_xgomp"]
+[ext_resource type="Texture2D" uid="uid://b2ee6c4ilns13" path="res://ASSETS/WORM/crawl to hide/crawl to hide8.png" id="76_bcyed"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_claw1"]
 size = Vector2(5585.224, 48.52104)
@@ -955,9 +1003,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 2.01,
-"texture": ExtResource("13_seas3")
-}, {
-"duration": 2.01,
 "texture": ExtResource("14_etrdn")
 }, {
 "duration": 3.41,
@@ -1013,41 +1058,256 @@ animations = [{
 "speed": 12.0
 }, {
 "frames": [{
-"duration": 0.41,
-"texture": ExtResource("11_8mif7")
-}, {
-"duration": 0.51,
-"texture": ExtResource("12_nsdgf")
-}, {
-"duration": 0.51,
-"texture": ExtResource("13_dpwrl")
-}, {
-"duration": 0.51,
-"texture": ExtResource("14_f7cfw")
-}, {
-"duration": 0.61,
-"texture": ExtResource("15_4jni1")
-}, {
 "duration": 0.71,
-"texture": ExtResource("16_tual2")
+"texture": ExtResource("30_seas3")
 }, {
-"duration": 0.61,
-"texture": ExtResource("17_kkde5")
+"duration": 0.91,
+"texture": ExtResource("31_etrdn")
 }, {
-"duration": 1.81,
-"texture": ExtResource("18_dx1gy")
+"duration": 0.91,
+"texture": ExtResource("32_5mu0j")
 }, {
-"duration": 1.51,
-"texture": ExtResource("19_n0ae6")
-}, {
-"duration": 2.11,
-"texture": ExtResource("20_v7rpj")
-}, {
-"duration": 1.41,
-"texture": ExtResource("21_88sn1")
+"duration": 0.81,
+"texture": ExtResource("33_yiodi")
 }],
 "loop": true,
-"name": &"Lunge Slash",
+"name": &"Ground emerge",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 0.51,
+"texture": ExtResource("34_u6r7y")
+}, {
+"duration": 0.61,
+"texture": ExtResource("35_56pig")
+}, {
+"duration": 0.61,
+"texture": ExtResource("36_wa66x")
+}, {
+"duration": 1.91,
+"texture": ExtResource("37_jcavq")
+}, {
+"duration": 1.91,
+"texture": ExtResource("38_gf67j")
+}, {
+"duration": 1.71,
+"texture": ExtResource("39_ixf11")
+}, {
+"duration": 1.61,
+"texture": ExtResource("40_f2lt3")
+}, {
+"duration": 2.0,
+"texture": ExtResource("41_4eh4j")
+}],
+"loop": true,
+"name": &"Lunge slash success",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.41,
+"texture": ExtResource("42_nirmj")
+}, {
+"duration": 1.41,
+"texture": ExtResource("43_4o1e3")
+}, {
+"duration": 1.41,
+"texture": ExtResource("44_c1spf")
+}, {
+"duration": 1.41,
+"texture": ExtResource("45_fbk4n")
+}, {
+"duration": 0.91,
+"texture": ExtResource("46_n0ova")
+}, {
+"duration": 0.61,
+"texture": ExtResource("47_xgomp")
+}, {
+"duration": 0.71,
+"texture": ExtResource("48_bcyed")
+}, {
+"duration": 0.81,
+"texture": ExtResource("49_s0p5u")
+}, {
+"duration": 1.11,
+"texture": ExtResource("50_4o1e3")
+}, {
+"duration": 1.31,
+"texture": ExtResource("51_c1spf")
+}, {
+"duration": 1.91,
+"texture": ExtResource("52_fbk4n")
+}, {
+"duration": 1.71,
+"texture": ExtResource("53_n0ova")
+}, {
+"duration": 1.61,
+"texture": ExtResource("54_xgomp")
+}, {
+"duration": 1.61,
+"texture": ExtResource("55_bcyed")
+}],
+"loop": true,
+"name": &"crawl attack fail",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.41,
+"texture": ExtResource("42_nirmj")
+}, {
+"duration": 1.41,
+"texture": ExtResource("43_4o1e3")
+}, {
+"duration": 1.41,
+"texture": ExtResource("44_c1spf")
+}, {
+"duration": 1.41,
+"texture": ExtResource("45_fbk4n")
+}, {
+"duration": 0.91,
+"texture": ExtResource("46_n0ova")
+}, {
+"duration": 0.61,
+"texture": ExtResource("47_xgomp")
+}, {
+"duration": 0.71,
+"texture": ExtResource("48_bcyed")
+}, {
+"duration": 0.81,
+"texture": ExtResource("49_s0p5u")
+}, {
+"duration": 1.61,
+"texture": ExtResource("56_cvntl")
+}, {
+"duration": 1.61,
+"texture": ExtResource("57_aek0c")
+}, {
+"duration": 1.51,
+"texture": ExtResource("58_4o1e3")
+}, {
+"duration": 2.0,
+"texture": ExtResource("58_ntsam")
+}, {
+"duration": 2.0,
+"texture": ExtResource("59_rbwec")
+}, {
+"duration": 2.0,
+"texture": ExtResource("60_d3ywt")
+}, {
+"duration": 2.0,
+"texture": ExtResource("61_wm7ni")
+}, {
+"duration": 2.0,
+"texture": ExtResource("62_ksatq")
+}, {
+"duration": 2.0,
+"texture": ExtResource("63_a1qct")
+}, {
+"duration": 2.0,
+"texture": ExtResource("64_oa6eu")
+}, {
+"duration": 2.0,
+"texture": ExtResource("65_ecrts")
+}, {
+"duration": 2.0,
+"texture": ExtResource("66_labr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_lm7m6")
+}],
+"loop": true,
+"name": &"crawl attack success eat",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.3,
+"texture": ExtResource("63_2t6qq")
+}, {
+"duration": 1.41,
+"texture": ExtResource("64_lvcyi")
+}, {
+"duration": 1.21,
+"texture": ExtResource("65_m220k")
+}, {
+"duration": 1.11,
+"texture": ExtResource("66_lubrp")
+}, {
+"duration": 1.01,
+"texture": ExtResource("67_5bbok")
+}, {
+"duration": 1.01,
+"texture": ExtResource("74_n0ova")
+}, {
+"duration": 0.91,
+"texture": ExtResource("75_xgomp")
+}, {
+"duration": 0.91,
+"texture": ExtResource("76_bcyed")
+}],
+"loop": true,
+"name": &"crawl to retreat ",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.21,
+"texture": ExtResource("46_k2ctj")
+}, {
+"duration": 1.41,
+"texture": ExtResource("47_5fkng")
+}, {
+"duration": 1.51,
+"texture": ExtResource("48_dmdem")
+}, {
+"duration": 1.71,
+"texture": ExtResource("49_8kpq4")
+}],
+"loop": true,
+"name": &"emerge to crawl",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.21,
+"texture": ExtResource("47_k2ctj")
+}, {
+"duration": 1.21,
+"texture": ExtResource("48_5fkng")
+}, {
+"duration": 0.71,
+"texture": ExtResource("49_dmdem")
+}, {
+"duration": 0.51,
+"texture": ExtResource("50_8kpq4")
+}],
+"loop": true,
+"name": &"lunge fail retreat",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("34_u6r7y")
+}, {
+"duration": 0.51,
+"texture": ExtResource("35_56pig")
+}, {
+"duration": 0.61,
+"texture": ExtResource("36_wa66x")
+}, {
+"duration": 1.91,
+"texture": ExtResource("42_ixf11")
+}, {
+"duration": 1.61,
+"texture": ExtResource("43_f2lt3")
+}, {
+"duration": 1.41,
+"texture": ExtResource("44_4eh4j")
+}, {
+"duration": 1.31,
+"texture": ExtResource("45_hle1p")
+}, {
+"duration": 1.31,
+"texture": ExtResource("46_3rrhp")
+}],
+"loop": true,
+"name": &"lunge slash fail",
 "speed": 12.0
 }]
 
@@ -1148,6 +1408,7 @@ color = Color(1, 0, 0, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="Worm" type="AnimatedSprite2D" parent="."]
+<<<<<<< HEAD
 position = Vector2(1355, -297)
 sprite_frames = SubResource("SpriteFrames_v7rpj")
 animation = &"Eat Player"
@@ -1175,3 +1436,9 @@ offset_bottom = 38.020542
 scale = Vector2(-139.6306, 1.2130259)
 color = Color(1, 0, 0, 1)
 metadata/_edit_use_anchors_ = true
+=======
+position = Vector2(-59, -27)
+sprite_frames = SubResource("SpriteFrames_v7rpj")
+animation = &"Crawl"
+frame_progress = 0.672754
+>>>>>>> origin/Jared-Sprites-Branch
