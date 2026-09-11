@@ -1,4 +1,4 @@
-[gd_scene load_steps=98 format=4 uid="uid://bf348y2o78rm3"]
+[gd_scene load_steps=99 format=4 uid="uid://bf348y2o78rm3"]
 
 [ext_resource type="PackedScene" uid="uid://5togvo5l4hu3" path="res://SCENES/GAME/player.tscn" id="1_player"]
 [ext_resource type="PackedScene" path="res://SCENES/breakable_ruins_tileset.tscn" id="4_pqy6s"]
@@ -33,6 +33,7 @@
 [ext_resource type="Texture2D" uid="uid://c6sqpo4tm8wmk" path="res://ASSETS/WORM/Ground emerge/worm_lunge_slash2.png" id="31_xgomp"]
 [ext_resource type="Texture2D" uid="uid://b0yxeew2jyi5t" path="res://ASSETS/WORM/Ground emerge/worm_lunge_slash3.png" id="32_bcyed"]
 [ext_resource type="Texture2D" uid="uid://csw40uup0hmo1" path="res://ASSETS/WORM/Ground emerge/worm_lunge_slash4.png" id="33_s0p5u"]
+[ext_resource type="Texture2D" uid="uid://1mc3ipbobhp5" path="res://ASSETS/WORM/Ground emerge/emergeextra.png" id="33_xgomp"]
 [ext_resource type="Texture2D" uid="uid://cpv2jeu5fm3v6" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash5.png" id="34_u6r7y"]
 [ext_resource type="Texture2D" uid="uid://e3olltd4dswh" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash6.png" id="35_56pig"]
 [ext_resource type="Texture2D" uid="uid://fojkd76xbuhy" path="res://ASSETS/WORM/lunge slash success/worm_lunge_slash7.png" id="36_wa66x"]
@@ -1067,8 +1068,8 @@ animations = [{
 "duration": 0.91,
 "texture": ExtResource("32_bcyed")
 }, {
-"duration": 0.81,
-"texture": ExtResource("33_s0p5u")
+"duration": 0.91,
+"texture": ExtResource("33_xgomp")
 }],
 "loop": true,
 "name": &"Ground emerge",
@@ -1265,6 +1266,17 @@ animations = [{
 "speed": 12.0
 }, {
 "frames": [{
+"duration": 3.0,
+"texture": ExtResource("33_xgomp")
+}, {
+"duration": 4.0,
+"texture": ExtResource("33_s0p5u")
+}],
+"loop": true,
+"name": &"ground emerge wait",
+"speed": 12.0
+}, {
+"frames": [{
 "duration": 1.21,
 "texture": ExtResource("47_k2ctj")
 }, {
@@ -1410,5 +1422,4 @@ metadata/_edit_use_anchors_ = true
 [node name="Worm" type="AnimatedSprite2D" parent="."]
 position = Vector2(-59, -27)
 sprite_frames = SubResource("SpriteFrames_v7rpj")
-animation = &"Ground emerge"
-frame_progress = 0.25847375
+animation = &"ground emerge wait"
